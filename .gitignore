@@ -1,0 +1,15 @@
+# Database credentials
+config/db.properties
+
+# Java Build & Bytecode
+*.class
+bin/
+out/
+target/
+
+# IDE & OS Metadata
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db

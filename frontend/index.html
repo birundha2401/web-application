@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Application Boilerplate</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Web Application Boilerplate</h1>
+            <p class="subtitle">Full-stack foundation with Java HTTP Server, MySQL JDBC, and Vanilla Web Stack.</p>
+        </header>
+
+        <main class="main-content">
+            <div class="card status-card">
+                <h2>System Health Status</h2>
+                <div class="status-grid">
+                    <div class="status-item">
+                        <span class="label">Backend Server:</span>
+                        <span id="backend-status" class="badge badge-pending">Checking...</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="label">Database Connection:</span>
+                        <span id="db-status" class="badge badge-pending">Checking...</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="label">Last Checked:</span>
+                        <span id="last-checked" class="timestamp">--:--:--</span>
+                    </div>
+                </div>
+                <button id="refresh-btn" class="btn" onclick="checkHealth()">Refresh Status</button>
+            </div>
+
+            <div class="card info-card">
+                <h2>Foundation Ready</h2>
+                <p>This boilerplate provides a clean, framework-free foundation designed to support authentication and
+                    domain-specific features in upcoming iterations.</p>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; Application Boilerplate Base. Built with Java & Vanilla Web Standards.</p>
+        </footer>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
