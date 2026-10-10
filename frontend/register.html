@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Web Application Boilerplate</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Create an Account</h1>
+            <p class="subtitle">Join us to access the platform.</p>
+        </header>
+
+        <main class="main-content">
+            <div class="card">
+                <form id="register-form" class="form-container">
+                    <div id="form-message" class="message hidden"></div>
+
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required placeholder="John Doe">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required placeholder="123-456-7890">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="john@example.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required placeholder="••••••••">
+                    </div>
+
+                    <button type="submit" class="btn btn-full">Register</button>
+                </form>
+
+                <div class="form-footer">
+                    <a href="index.html">← Back to Home</a>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/register.js"></script>
+</body>
+
+</html>

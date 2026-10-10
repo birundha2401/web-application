@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    // Tells Gradle to download dependencies from Maven Central
+    mavenCentral()
+}
+
+// Map Gradle to our existing custom folder structure
+sourceSets {
+    main {
+        java { srcDirs = ['backend/src'] }
+    }
+    test {
+        java { srcDirs = ['backend/test'] }
+    }
+}
+
+dependencies {
+    // Gradle automatically downloads the MySQL JDBC driver!
+    implementation 'com.mysql:mysql-connector-j:8.3.0'
+}
+
+application {
+    // The entry point to start your server
+    mainClass = 'com.example.app.Server'
+}
