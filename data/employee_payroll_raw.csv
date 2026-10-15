@@ -1,0 +1,61 @@
+emp_id,department,experience_yrs,salary,rating
+5001,Marketing,1,60960.57,3.8
+5002,Engineering,3,53340.83,4.2
+5003,,10,62772.26,4.6
+5004,Finance,12,73276.36,3.3
+5005,Human Resources,8,52190.16,3.1
+5006,Finance,11,420000.0,4.3
+5007,Finance,6,73950.55,4.5
+5008,Engineering,8,,3.4
+5009,Finance,9,49366.31,2.7
+5010,Operations,4,61510.72,4.9
+5011,Finance,1,49438.99,3.5
+5012,Engineering,14,49411.24,3.8
+5013,Operations,1,57903.55,4.6
+5014,Marketing,10,32040.64,4.2
+5015,,4,34300.99,4.3
+5016,Engineering,12,48252.55,3.0
+5017,Marketing,14,42846.03,3.9
+5018,Marketing,7,58770.97,4.2
+5019,Human Resources,2,385000.0,3.1
+5020,Operations,3,38052.36,2.9
+5021,Finance,1,72587.79,5.0
+5022,Engineering,5,52290.68,3.8
+5023,Human Resources,1,,3.2
+5024,Operations,8,37903.02,5.0
+5025,Human Resources,1,48467.41,4.9
+5026,Operations,11,56331.07,3.9
+5027,Operations,1,41188.08,4.7
+5028,Finance,2,59508.38,3.0
+5029,Operations,2,47792.34,3.2
+5030,Human Resources,12,51499.68,4.3
+5031,Operations,6,47779.52,4.6
+5032,,7,77227.34,4.6
+5033,Finance,5,54838.03,3.5
+5034,Human Resources,1,42307.47,4.7
+5035,Marketing,1,64870.54,4.6
+5036,Marketing,3,40349.88,4.8
+5037,Operations,14,57506.36,4.5
+5038,Engineering,2,31483.96,4.2
+5039,Operations,5,39061.77,4.0
+5040,Human Resources,12,,3.4
+5041,Human Resources,10,63861.6,4.9
+5042,Human Resources,6,57056.42,4.9
+5043,Human Resources,7,53612.22,3.2
+5044,Human Resources,4,51386.76,3.3
+5045,Finance,7,490000.0,3.7
+5046,Marketing,11,46361.87,3.6
+5047,Human Resources,8,49472.33,5.0
+5048,Engineering,11,67685.47,2.9
+5049,Engineering,1,59123.42,2.5
+5050,Engineering,6,33843.52,3.7
+5051,Engineering,8,58889.01,2.9
+5052,Finance,5,50379.01,3.4
+5053,Engineering,4,46876.94,4.4
+5054,Human Resources,2,62340.12,4.3
+5055,Operations,6,67371.99,3.3
+5056,Engineering,6,66175.36,3.9
+5057,Finance,11,44929.39,3.8
+5058,Finance,1,51289.45,4.1
+5059,Engineering,9,58975.16,3.1
+5060,Operations,12,66706.54,4.0

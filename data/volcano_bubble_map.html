@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d22f22feb7c1cf23caba33f0ed32ddc5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d22f22feb7c1cf23caba33f0ed32ddc5" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d22f22feb7c1cf23caba33f0ed32ddc5 = L.map(
+                "map_d22f22feb7c1cf23caba33f0ed32ddc5",
+                {
+                    center: [20.0, 10.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9f4ab2da48f71613a7e2a0ad7018d919 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_9f4ab2da48f71613a7e2a0ad7018d919.addTo(map_d22f22feb7c1cf23caba33f0ed32ddc5);
+        
+    
+            var circle_marker_805428cb8b852795bbb063fe068c2051 = L.circleMarker(
+                [63.63, -19.62],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_d22f22feb7c1cf23caba33f0ed32ddc5);
+        
+    
+        var popup_53c988900186695a5a1ada0b629b3c54 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2a0e2bc6a140ee514fc56b0d8adb04a0 = $(`<div id="html_2a0e2bc6a140ee514fc56b0d8adb04a0" style="width: 100.0%; height: 100.0%;"><b>Eyjafjallajökull</b><br>VEI: 4</div>`)[0];
+                popup_53c988900186695a5a1ada0b629b3c54.setContent(html_2a0e2bc6a140ee514fc56b0d8adb04a0);
+            
+        
+
+        circle_marker_805428cb8b852795bbb063fe068c2051.bindPopup(popup_53c988900186695a5a1ada0b629b3c54)
+        ;
+
+        
+    
+    
+            circle_marker_805428cb8b852795bbb063fe068c2051.bindTooltip(
+                `<div>
+                     Eyjafjallajökull (VEI: 4)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_66896602e141a60723bf416f6040ed01 = L.circleMarker(
+                [35.36, 138.73],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_d22f22feb7c1cf23caba33f0ed32ddc5);
+        
+    
+        var popup_9fd2325b60e1407149e438d82662dc01 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f4353dd63426705b42811697b888c98 = $(`<div id="html_1f4353dd63426705b42811697b888c98" style="width: 100.0%; height: 100.0%;"><b>Mount Fuji</b><br>VEI: 5</div>`)[0];
+                popup_9fd2325b60e1407149e438d82662dc01.setContent(html_1f4353dd63426705b42811697b888c98);
+            
+        
+
+        circle_marker_66896602e141a60723bf416f6040ed01.bindPopup(popup_9fd2325b60e1407149e438d82662dc01)
+        ;
+
+        
+    
+    
+            circle_marker_66896602e141a60723bf416f6040ed01.bindTooltip(
+                `<div>
+                     Mount Fuji (VEI: 5)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7dc9ac0e430ba86040737bade2efade0 = L.circleMarker(
+                [40.82, 14.43],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_d22f22feb7c1cf23caba33f0ed32ddc5);
+        
+    
+        var popup_843303040ea8977b2a01be347d99eb19 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_346d978cc95e8a17ef024bc5f6b092c4 = $(`<div id="html_346d978cc95e8a17ef024bc5f6b092c4" style="width: 100.0%; height: 100.0%;"><b>Mount Vesuvius</b><br>VEI: 5</div>`)[0];
+                popup_843303040ea8977b2a01be347d99eb19.setContent(html_346d978cc95e8a17ef024bc5f6b092c4);
+            
+        
+
+        circle_marker_7dc9ac0e430ba86040737bade2efade0.bindPopup(popup_843303040ea8977b2a01be347d99eb19)
+        ;
+
+        
+    
+    
+            circle_marker_7dc9ac0e430ba86040737bade2efade0.bindTooltip(
+                `<div>
+                     Mount Vesuvius (VEI: 5)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_94d1309be81335a3af298019ef6260ff = L.circleMarker(
+                [-6.1, 105.42],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18, "stroke": true, "weight": 3}
+            ).addTo(map_d22f22feb7c1cf23caba33f0ed32ddc5);
+        
+    
+        var popup_2a1d6f827a63a6aa3926acb8bb25a1a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e6f7ffdf8c87f09befc11f944325d29 = $(`<div id="html_5e6f7ffdf8c87f09befc11f944325d29" style="width: 100.0%; height: 100.0%;"><b>Krakatoa</b><br>VEI: 6</div>`)[0];
+                popup_2a1d6f827a63a6aa3926acb8bb25a1a8.setContent(html_5e6f7ffdf8c87f09befc11f944325d29);
+            
+        
+
+        circle_marker_94d1309be81335a3af298019ef6260ff.bindPopup(popup_2a1d6f827a63a6aa3926acb8bb25a1a8)
+        ;
+
+        
+    
+    
+            circle_marker_94d1309be81335a3af298019ef6260ff.bindTooltip(
+                `<div>
+                     Krakatoa (VEI: 6)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_44139eb91a14da86a9384d13477f0092 = L.circleMarker(
+                [46.2, -122.19],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_d22f22feb7c1cf23caba33f0ed32ddc5);
+        
+    
+        var popup_16992f6c3bb118cde55d2e9142f007c6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_969c45a8734656faf2b296fe21a7cbd2 = $(`<div id="html_969c45a8734656faf2b296fe21a7cbd2" style="width: 100.0%; height: 100.0%;"><b>Mount St. Helens</b><br>VEI: 5</div>`)[0];
+                popup_16992f6c3bb118cde55d2e9142f007c6.setContent(html_969c45a8734656faf2b296fe21a7cbd2);
+            
+        
+
+        circle_marker_44139eb91a14da86a9384d13477f0092.bindPopup(popup_16992f6c3bb118cde55d2e9142f007c6)
+        ;
+
+        
+    
+    
+            circle_marker_44139eb91a14da86a9384d13477f0092.bindTooltip(
+                `<div>
+                     Mount St. Helens (VEI: 5)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e8e429e556b4983c3c5e3a148573c07a = L.circleMarker(
+                [15.13, 120.35],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18, "stroke": true, "weight": 3}
+            ).addTo(map_d22f22feb7c1cf23caba33f0ed32ddc5);
+        
+    
+        var popup_136384f40ba790dcebdc7cf2a2035fa2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dea44269b8b72c55553675ad5e8ea419 = $(`<div id="html_dea44269b8b72c55553675ad5e8ea419" style="width: 100.0%; height: 100.0%;"><b>Mount Pinatubo</b><br>VEI: 6</div>`)[0];
+                popup_136384f40ba790dcebdc7cf2a2035fa2.setContent(html_dea44269b8b72c55553675ad5e8ea419);
+            
+        
+
+        circle_marker_e8e429e556b4983c3c5e3a148573c07a.bindPopup(popup_136384f40ba790dcebdc7cf2a2035fa2)
+        ;
+
+        
+    
+    
+            circle_marker_e8e429e556b4983c3c5e3a148573c07a.bindTooltip(
+                `<div>
+                     Mount Pinatubo (VEI: 6)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3f18ec69bbfcbeec33510a60e5c36e5b = L.circleMarker(
+                [-0.68, -78.44],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_d22f22feb7c1cf23caba33f0ed32ddc5);
+        
+    
+        var popup_281253644455b05e7db95a3a6fc2b342 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c03685808feaaffda19e2c15a13896ff = $(`<div id="html_c03685808feaaffda19e2c15a13896ff" style="width: 100.0%; height: 100.0%;"><b>Cotopaxi</b><br>VEI: 4</div>`)[0];
+                popup_281253644455b05e7db95a3a6fc2b342.setContent(html_c03685808feaaffda19e2c15a13896ff);
+            
+        
+
+        circle_marker_3f18ec69bbfcbeec33510a60e5c36e5b.bindPopup(popup_281253644455b05e7db95a3a6fc2b342)
+        ;
+
+        
+    
+    
+            circle_marker_3f18ec69bbfcbeec33510a60e5c36e5b.bindTooltip(
+                `<div>
+                     Cotopaxi (VEI: 4)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_452e5c108684e472d47d392058b7a820 = L.circleMarker(
+                [19.47, -155.61],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_d22f22feb7c1cf23caba33f0ed32ddc5);
+        
+    
+        var popup_bc3352ceb7fc43690791349f05d6c195 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_892c92dfd947fe5785f16690e35ec8e0 = $(`<div id="html_892c92dfd947fe5785f16690e35ec8e0" style="width: 100.0%; height: 100.0%;"><b>Mauna Loa</b><br>VEI: 3</div>`)[0];
+                popup_bc3352ceb7fc43690791349f05d6c195.setContent(html_892c92dfd947fe5785f16690e35ec8e0);
+            
+        
+
+        circle_marker_452e5c108684e472d47d392058b7a820.bindPopup(popup_bc3352ceb7fc43690791349f05d6c195)
+        ;
+
+        
+    
+    
+            circle_marker_452e5c108684e472d47d392058b7a820.bindTooltip(
+                `<div>
+                     Mauna Loa (VEI: 3)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a28989501af5693d8ab9ca2c54d8f705 = L.circleMarker(
+                [37.75, 14.99],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_d22f22feb7c1cf23caba33f0ed32ddc5);
+        
+    
+        var popup_c3f24b3151b9ef0e25b853919d384ff0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a3d7e3ac625d5ac35036dd75cfd9808 = $(`<div id="html_5a3d7e3ac625d5ac35036dd75cfd9808" style="width: 100.0%; height: 100.0%;"><b>Mount Etna</b><br>VEI: 3</div>`)[0];
+                popup_c3f24b3151b9ef0e25b853919d384ff0.setContent(html_5a3d7e3ac625d5ac35036dd75cfd9808);
+            
+        
+
+        circle_marker_a28989501af5693d8ab9ca2c54d8f705.bindPopup(popup_c3f24b3151b9ef0e25b853919d384ff0)
+        ;
+
+        
+    
+    
+            circle_marker_a28989501af5693d8ab9ca2c54d8f705.bindTooltip(
+                `<div>
+                     Mount Etna (VEI: 3)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a179d81c447b0d6e2b69fdcc92afc1cb = L.circleMarker(
+                [19.02, -98.62],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_d22f22feb7c1cf23caba33f0ed32ddc5);
+        
+    
+        var popup_d683a804cf3fe56841dbac4d2d055677 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_556e21633b471083e9e188ea7bd037c5 = $(`<div id="html_556e21633b471083e9e188ea7bd037c5" style="width: 100.0%; height: 100.0%;"><b>Popocatépetl</b><br>VEI: 4</div>`)[0];
+                popup_d683a804cf3fe56841dbac4d2d055677.setContent(html_556e21633b471083e9e188ea7bd037c5);
+            
+        
+
+        circle_marker_a179d81c447b0d6e2b69fdcc92afc1cb.bindPopup(popup_d683a804cf3fe56841dbac4d2d055677)
+        ;
+
+        
+    
+    
+            circle_marker_a179d81c447b0d6e2b69fdcc92afc1cb.bindTooltip(
+                `<div>
+                     Popocatépetl (VEI: 4)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3899829eb1e21ecd6ace606b300a73e7 = L.circleMarker(
+                [-8.25, 118.0],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21, "stroke": true, "weight": 3}
+            ).addTo(map_d22f22feb7c1cf23caba33f0ed32ddc5);
+        
+    
+        var popup_690c8e933d78a3cebdb7be75131df911 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b0413dc2c44033dc95d0508255b04a6d = $(`<div id="html_b0413dc2c44033dc95d0508255b04a6d" style="width: 100.0%; height: 100.0%;"><b>Tambora</b><br>VEI: 7</div>`)[0];
+                popup_690c8e933d78a3cebdb7be75131df911.setContent(html_b0413dc2c44033dc95d0508255b04a6d);
+            
+        
+
+        circle_marker_3899829eb1e21ecd6ace606b300a73e7.bindPopup(popup_690c8e933d78a3cebdb7be75131df911)
+        ;
+
+        
+    
+    
+            circle_marker_3899829eb1e21ecd6ace606b300a73e7.bindTooltip(
+                `<div>
+                     Tambora (VEI: 7)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fd2ea47caa885ca5678080a54926e735 = L.circleMarker(
+                [-7.54, 110.44],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_d22f22feb7c1cf23caba33f0ed32ddc5);
+        
+    
+        var popup_0df381cbbe5a3c16e30d7beef9fa1cd7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9bf6f4a5f103b1e6fe27638f28901699 = $(`<div id="html_9bf6f4a5f103b1e6fe27638f28901699" style="width: 100.0%; height: 100.0%;"><b>Mount Merapi</b><br>VEI: 4</div>`)[0];
+                popup_0df381cbbe5a3c16e30d7beef9fa1cd7.setContent(html_9bf6f4a5f103b1e6fe27638f28901699);
+            
+        
+
+        circle_marker_fd2ea47caa885ca5678080a54926e735.bindPopup(popup_0df381cbbe5a3c16e30d7beef9fa1cd7)
+        ;
+
+        
+    
+    
+            circle_marker_fd2ea47caa885ca5678080a54926e735.bindTooltip(
+                `<div>
+                     Mount Merapi (VEI: 4)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_763a2299e23137a3c0bbd9971f574e9b = L.circleMarker(
+                [19.42, -155.29],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_d22f22feb7c1cf23caba33f0ed32ddc5);
+        
+    
+        var popup_1aef5c8b22c9259eb54d19976e71ca2f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a440456fad4aec2123e10321a299f04 = $(`<div id="html_5a440456fad4aec2123e10321a299f04" style="width: 100.0%; height: 100.0%;"><b>Kilauea</b><br>VEI: 3</div>`)[0];
+                popup_1aef5c8b22c9259eb54d19976e71ca2f.setContent(html_5a440456fad4aec2123e10321a299f04);
+            
+        
+
+        circle_marker_763a2299e23137a3c0bbd9971f574e9b.bindPopup(popup_1aef5c8b22c9259eb54d19976e71ca2f)
+        ;
+
+        
+    
+    
+            circle_marker_763a2299e23137a3c0bbd9971f574e9b.bindTooltip(
+                `<div>
+                     Kilauea (VEI: 3)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8b5fede9c62b7c2a9b5cc83e6752946e = L.circleMarker(
+                [31.59, 130.66],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_d22f22feb7c1cf23caba33f0ed32ddc5);
+        
+    
+        var popup_78a1511225514b0ef110b58a1147a8dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc74f96b42f4c3b795b62752e85d94cd = $(`<div id="html_cc74f96b42f4c3b795b62752e85d94cd" style="width: 100.0%; height: 100.0%;"><b>Sakurajima</b><br>VEI: 4</div>`)[0];
+                popup_78a1511225514b0ef110b58a1147a8dc.setContent(html_cc74f96b42f4c3b795b62752e85d94cd);
+            
+        
+
+        circle_marker_8b5fede9c62b7c2a9b5cc83e6752946e.bindPopup(popup_78a1511225514b0ef110b58a1147a8dc)
+        ;
+
+        
+    
+    
+            circle_marker_8b5fede9c62b7c2a9b5cc83e6752946e.bindTooltip(
+                `<div>
+                     Sakurajima (VEI: 4)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_33106ef92225217876e1796c8553bfda = L.circleMarker(
+                [36.4, 25.4],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21, "stroke": true, "weight": 3}
+            ).addTo(map_d22f22feb7c1cf23caba33f0ed32ddc5);
+        
+    
+        var popup_ab024062efa9965dc1d9d20608bee301 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_71e3e80a3958cb29c0222804e6f4e347 = $(`<div id="html_71e3e80a3958cb29c0222804e6f4e347" style="width: 100.0%; height: 100.0%;"><b>Santorini</b><br>VEI: 7</div>`)[0];
+                popup_ab024062efa9965dc1d9d20608bee301.setContent(html_71e3e80a3958cb29c0222804e6f4e347);
+            
+        
+
+        circle_marker_33106ef92225217876e1796c8553bfda.bindPopup(popup_ab024062efa9965dc1d9d20608bee301)
+        ;
+
+        
+    
+    
+            circle_marker_33106ef92225217876e1796c8553bfda.bindTooltip(
+                `<div>
+                     Santorini (VEI: 7)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

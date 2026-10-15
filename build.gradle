@@ -19,8 +19,11 @@ sourceSets {
 }
 
 dependencies {
-    // Gradle automatically downloads the MySQL JDBC driver!
+    // Gradle automatically downloads the MySQL JDBC driver
     implementation 'com.mysql:mysql-connector-j:8.3.0'
+    
+    // NEW: BCrypt dependency for secure password hashing
+    implementation 'org.mindrot:jbcrypt:0.4'
 }
 
 application {

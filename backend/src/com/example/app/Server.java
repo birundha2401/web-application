@@ -15,8 +15,12 @@ public class Server {
             // Register Health Check API Endpoint
             server.createContext("/api/health", new HealthHandler(db));
 
-              // Register Registration API Endpoint
+   
+            // Register Registration API Endpoint
             server.createContext("/api/register", new RegisterHandler(db));
+
+            // Register Login API Endpoint
+            server.createContext("/api/login", new LoginHandler(db));
 
             // Register Static File Handler for Frontend
             server.createContext("/", new StaticFileHandler("frontend"));

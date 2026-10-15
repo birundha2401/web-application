@@ -2,6 +2,7 @@ package com.example.app;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class UserRepository {
@@ -23,5 +24,27 @@ public class UserRepository {
             
             return stmt.executeUpdate() > 0;
         }
+    }
+
+    public User getUserByEmail(String email) throws SQLException {
+        String sql = "SELECT id, name, phone, email, password FROM users WHERE email = ?";
+        try (Connection conn = db.getConnection();
+             PreparedStatement stmt = conn.prepareStatement(sql)) {
+            
+            stmt.setString(1, email);
+            try (ResultSet rs = stmt.executeQuery()) {
+                if (rs.next()) {
+                    User user = new User(
+                        rs.getString("name"),
+                        rs.getString("phone"),
+                        rs.getString("email"),
+                        rs.getString("password")
+                    );
+                    user.setId(rs.getInt("id"));
+                    return user;
+                }
+            }
+        }
+        return null; 
     }
 }

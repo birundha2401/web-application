@@ -1,0 +1,1001 @@
+Order_ID,Region,Category,Sales,Discount,Profit,Ship_Mode,High_Profit_Margin
+CA-2024-10000,West,Furniture,44.43,0.0,12.6,First Class,Standard/Loss
+CA-2024-10001,Central,Furniture,910.83,0.4,-25.79,Second Class,Standard/Loss
+CA-2024-10002,North,Technology,185.34,0.1,34.22,Standard Class,Standard/Loss
+CA-2024-10003,East,Office Supplies,89.44,0.0,23.96,Second Class,Standard/Loss
+CA-2024-10004,West,Office Supplies,209.35,0.2,22.04,First Class,Standard/Loss
+CA-2024-10005,Central,Office Supplies,104.06,0.4,-28.53,Same Day,Standard/Loss
+CA-2024-10006,West,Office Supplies,516.27,0.0,183.3,Same Day,High Profit
+CA-2024-10007,North,Office Supplies,30.49,0.2,-12.72,Second Class,Standard/Loss
+CA-2024-10008,South,Office Supplies,48.67,0.1,23.19,Standard Class,Standard/Loss
+CA-2024-10009,North,Technology,384.35,0.0,126.93,Standard Class,High Profit
+CA-2024-10010,Central,Technology,33.2,0.0,17.83,First Class,Standard/Loss
+CA-2024-10011,North,Furniture,393.71,0.0,98.9,Same Day,High Profit
+CA-2024-10012,West,Office Supplies,22.3,0.4,-0.4,Same Day,Standard/Loss
+CA-2024-10013,West,Office Supplies,260.79,0.1,59.16,First Class,High Profit
+CA-2024-10014,West,Office Supplies,446.91,0.1,101.84,First Class,High Profit
+CA-2024-10015,East,Furniture,592.14,0.0,202.8,First Class,High Profit
+CA-2024-10016,Central,Technology,1080.33,0.3,42.96,First Class,Standard/Loss
+CA-2024-10017,South,Technology,191.66,0.3,17.19,Second Class,Standard/Loss
+CA-2024-10018,South,Technology,128.59,0.1,17.61,Second Class,Standard/Loss
+CA-2024-10019,Central,Furniture,524.51,0.0,207.51,First Class,High Profit
+CA-2024-10020,South,Technology,146.41,0.0,47.09,Second Class,Standard/Loss
+CA-2024-10021,West,Technology,277.97,0.0,101.76,Same Day,High Profit
+CA-2024-10022,North,Technology,25.17,0.0,33.89,Second Class,Standard/Loss
+CA-2024-10023,West,Technology,432.68,0.1,91.53,First Class,High Profit
+CA-2024-10024,Central,Office Supplies,160.36,0.2,37.87,Standard Class,Standard/Loss
+CA-2024-10025,West,Office Supplies,224.42,0.0,79.77,Same Day,High Profit
+CA-2024-10026,South,Furniture,397.52,0.0,125.58,Same Day,High Profit
+CA-2024-10027,Central,Furniture,148.77,0.3,8.24,Standard Class,Standard/Loss
+CA-2024-10028,South,Office Supplies,616.48,0.1,137.99,Same Day,High Profit
+CA-2024-10029,Central,Office Supplies,282.43,0.1,92.64,First Class,High Profit
+CA-2024-10030,East,Office Supplies,344.82,0.2,45.15,Second Class,Standard/Loss
+CA-2024-10031,West,Furniture,398.03,0.1,113.29,Second Class,High Profit
+CA-2024-10032,North,Technology,127.98,0.1,20.61,Standard Class,Standard/Loss
+CA-2024-10033,West,Technology,24.96,0.0,13.88,Second Class,Standard/Loss
+CA-2024-10034,Central,Technology,131.01,0.4,4.92,Same Day,Standard/Loss
+CA-2024-10035,South,Furniture,110.32,0.1,44.53,First Class,Standard/Loss
+CA-2024-10036,East,Furniture,648.52,0.3,37.09,Second Class,Standard/Loss
+CA-2024-10037,East,Office Supplies,93.06,0.0,27.15,Second Class,Standard/Loss
+CA-2024-10038,West,Office Supplies,88.99,0.0,80.91,Standard Class,High Profit
+CA-2024-10039,Central,Technology,621.77,0.2,97.65,Standard Class,High Profit
+CA-2024-10040,West,Technology,394.94,0.4,-20.36,Second Class,Standard/Loss
+CA-2024-10041,East,Office Supplies,160.43,0.2,30.42,First Class,Standard/Loss
+CA-2024-10042,East,Furniture,657.09,0.1,173.65,Same Day,High Profit
+CA-2024-10043,South,Furniture,327.49,0.1,92.51,Standard Class,High Profit
+CA-2024-10044,Central,Office Supplies,38.62,0.2,23.34,Standard Class,Standard/Loss
+CA-2024-10045,South,Technology,117.18,0.2,20.23,First Class,Standard/Loss
+CA-2024-10046,North,Technology,486.28,0.2,75.84,Standard Class,High Profit
+CA-2024-10047,Central,Furniture,272.44,0.4,20.8,Same Day,Standard/Loss
+CA-2024-10048,Central,Office Supplies,258.88,0.2,26.99,Standard Class,Standard/Loss
+CA-2024-10049,West,Office Supplies,432.97,0.4,-31.92,First Class,Standard/Loss
+CA-2024-10050,North,Technology,272.95,0.5,-50.45,Second Class,Standard/Loss
+CA-2024-10051,South,Furniture,97.8,0.1,15.05,Second Class,Standard/Loss
+CA-2024-10052,West,Furniture,141.76,0.5,-13.57,Standard Class,Standard/Loss
+CA-2024-10053,Central,Technology,125.76,0.4,-15.94,Second Class,Standard/Loss
+CA-2024-10054,North,Technology,75.89,0.1,45.41,First Class,Standard/Loss
+CA-2024-10055,South,Furniture,95.35,0.0,37.29,Same Day,Standard/Loss
+CA-2024-10056,West,Office Supplies,299.22,0.5,-22.42,Same Day,Standard/Loss
+CA-2024-10057,South,Office Supplies,491.57,0.1,144.91,Standard Class,High Profit
+CA-2024-10058,West,Technology,76.65,0.5,-34.07,Second Class,Standard/Loss
+CA-2024-10059,East,Furniture,388.65,0.1,102.65,Same Day,High Profit
+CA-2024-10060,Central,Technology,464.61,0.0,180.57,First Class,High Profit
+CA-2024-10061,Central,Technology,213.73,0.2,4.6,Same Day,Standard/Loss
+CA-2024-10062,Central,Technology,136.49,0.2,23.12,Standard Class,Standard/Loss
+CA-2024-10063,West,Technology,76.78,0.2,0.25,Same Day,Standard/Loss
+CA-2024-10064,East,Office Supplies,72.04,0.2,3.11,Same Day,Standard/Loss
+CA-2024-10065,North,Office Supplies,117.78,0.2,3.09,Standard Class,Standard/Loss
+CA-2024-10066,North,Furniture,38.77,0.3,-20.05,Same Day,Standard/Loss
+CA-2024-10067,West,Furniture,73.68,0.1,28.19,First Class,Standard/Loss
+CA-2024-10068,East,Office Supplies,647.65,0.2,80.7,First Class,High Profit
+CA-2024-10069,Central,Office Supplies,257.72,0.3,28.64,Same Day,Standard/Loss
+CA-2024-10070,North,Technology,29.5,0.3,12.78,Standard Class,Standard/Loss
+CA-2024-10071,East,Office Supplies,100.1,0.5,-25.93,First Class,Standard/Loss
+CA-2024-10072,West,Furniture,341.21,0.0,114.04,Second Class,High Profit
+CA-2024-10073,South,Technology,699.76,0.1,188.94,Standard Class,High Profit
+CA-2024-10074,Central,Office Supplies,146.97,0.0,57.23,Standard Class,High Profit
+CA-2024-10075,South,Furniture,335.61,0.0,132.1,First Class,High Profit
+CA-2024-10076,North,Office Supplies,442.48,0.1,112.64,Second Class,High Profit
+CA-2024-10077,North,Furniture,27.73,0.2,12.54,First Class,Standard/Loss
+CA-2024-10078,East,Office Supplies,458.15,0.0,149.84,Second Class,High Profit
+CA-2024-10079,East,Furniture,182.53,0.0,62.28,Second Class,High Profit
+CA-2024-10080,East,Furniture,102.38,0.4,-21.35,Same Day,Standard/Loss
+CA-2024-10081,East,Furniture,245.44,0.2,34.4,Second Class,Standard/Loss
+CA-2024-10082,Central,Furniture,36.32,0.1,-7.21,First Class,Standard/Loss
+CA-2024-10083,South,Technology,65.71,0.0,43.31,Second Class,Standard/Loss
+CA-2024-10084,West,Technology,210.83,0.4,-22.99,Second Class,Standard/Loss
+CA-2024-10085,East,Furniture,238.76,0.4,-24.33,Standard Class,Standard/Loss
+CA-2024-10086,Central,Furniture,83.82,0.4,13.57,Second Class,Standard/Loss
+CA-2024-10087,North,Furniture,362.74,0.1,107.64,First Class,High Profit
+CA-2024-10088,South,Furniture,382.52,0.0,130.85,Second Class,High Profit
+CA-2024-10089,East,Office Supplies,129.14,0.0,33.32,Standard Class,Standard/Loss
+CA-2024-10090,West,Furniture,245.88,0.0,101.96,Standard Class,High Profit
+CA-2024-10091,North,Technology,987.47,0.3,28.68,Standard Class,Standard/Loss
+CA-2024-10092,North,Office Supplies,105.65,0.0,71.8,Second Class,High Profit
+CA-2024-10093,North,Office Supplies,265.3,0.2,44.98,Same Day,Standard/Loss
+CA-2024-10094,Central,Furniture,116.01,0.2,10.16,Second Class,Standard/Loss
+CA-2024-10095,East,Technology,662.72,0.4,-6.96,Standard Class,Standard/Loss
+CA-2024-10096,Central,Furniture,176.3,0.0,57.53,Second Class,High Profit
+CA-2024-10097,Central,Furniture,512.22,0.2,88.32,Standard Class,High Profit
+CA-2024-10098,Central,Office Supplies,70.26,0.3,-13.0,Standard Class,Standard/Loss
+CA-2024-10099,North,Technology,103.49,0.2,17.37,Same Day,Standard/Loss
+CA-2024-10100,North,Technology,102.79,0.0,17.34,Standard Class,Standard/Loss
+CA-2024-10101,East,Furniture,234.77,0.5,-11.41,Second Class,Standard/Loss
+CA-2024-10102,Central,Technology,188.83,0.2,19.22,Same Day,Standard/Loss
+CA-2024-10103,East,Furniture,371.64,0.2,53.37,Second Class,High Profit
+CA-2024-10104,East,Technology,37.65,0.1,14.51,First Class,Standard/Loss
+CA-2024-10105,North,Technology,675.79,0.0,228.56,First Class,High Profit
+CA-2024-10106,South,Office Supplies,104.56,0.2,2.1,Second Class,Standard/Loss
+CA-2024-10107,West,Technology,218.95,0.0,51.43,Second Class,High Profit
+CA-2024-10108,West,Office Supplies,207.45,0.0,92.06,Standard Class,High Profit
+CA-2024-10109,East,Office Supplies,189.47,0.4,-42.96,Same Day,Standard/Loss
+CA-2024-10110,West,Furniture,779.37,0.2,132.98,Second Class,High Profit
+CA-2024-10111,North,Furniture,255.19,0.0,102.15,First Class,High Profit
+CA-2024-10112,West,Furniture,154.75,0.3,-2.11,First Class,Standard/Loss
+CA-2024-10113,South,Office Supplies,163.9,0.0,31.32,Standard Class,Standard/Loss
+CA-2024-10114,East,Furniture,87.26,0.2,11.94,Same Day,Standard/Loss
+CA-2024-10115,North,Furniture,1005.4,0.0,332.82,First Class,High Profit
+CA-2024-10116,South,Furniture,370.04,0.0,117.12,Same Day,High Profit
+CA-2024-10117,South,Office Supplies,106.09,0.0,27.11,First Class,Standard/Loss
+CA-2024-10118,East,Furniture,106.2,0.3,4.21,Second Class,Standard/Loss
+CA-2024-10119,Central,Technology,342.22,0.0,135.78,Second Class,High Profit
+CA-2024-10120,East,Furniture,195.5,0.3,17.29,First Class,Standard/Loss
+CA-2024-10121,West,Office Supplies,30.27,0.2,7.58,First Class,Standard/Loss
+CA-2024-10122,North,Furniture,198.44,0.0,63.35,Standard Class,High Profit
+CA-2024-10123,East,Office Supplies,137.87,0.4,-14.83,Second Class,Standard/Loss
+CA-2024-10124,North,Technology,367.98,0.0,155.35,First Class,High Profit
+CA-2024-10125,Central,Technology,338.4,0.0,123.19,First Class,High Profit
+CA-2024-10126,West,Technology,39.89,0.3,-2.46,Standard Class,Standard/Loss
+CA-2024-10127,West,Furniture,512.18,0.4,-29.25,Standard Class,Standard/Loss
+CA-2024-10128,South,Technology,35.53,0.0,28.09,Second Class,Standard/Loss
+CA-2024-10129,West,Technology,289.04,0.0,76.62,Standard Class,High Profit
+CA-2024-10130,East,Technology,37.61,0.1,26.35,Same Day,Standard/Loss
+CA-2024-10131,Central,Furniture,320.59,0.1,81.5,Second Class,High Profit
+CA-2024-10132,Central,Furniture,137.07,0.4,4.29,First Class,Standard/Loss
+CA-2024-10133,East,Furniture,77.19,0.0,33.51,Standard Class,Standard/Loss
+CA-2024-10134,South,Office Supplies,409.5,0.2,55.11,Second Class,High Profit
+CA-2024-10135,Central,Office Supplies,1019.55,0.2,138.48,Second Class,High Profit
+CA-2024-10136,West,Technology,255.43,0.0,97.28,Second Class,High Profit
+CA-2024-10137,North,Technology,184.22,0.2,47.64,First Class,Standard/Loss
+CA-2024-10138,North,Office Supplies,194.71,0.1,51.82,First Class,High Profit
+CA-2024-10139,East,Technology,34.47,0.1,-8.59,Standard Class,Standard/Loss
+CA-2024-10140,West,Technology,34.31,0.0,-1.93,Same Day,Standard/Loss
+CA-2024-10141,North,Furniture,89.82,0.3,25.45,Standard Class,Standard/Loss
+CA-2024-10142,North,Technology,50.14,0.1,15.93,First Class,Standard/Loss
+CA-2024-10143,East,Technology,147.06,0.0,12.49,Standard Class,Standard/Loss
+CA-2024-10144,South,Furniture,78.43,0.0,4.27,First Class,Standard/Loss
+CA-2024-10145,Central,Office Supplies,232.98,0.0,87.44,Same Day,High Profit
+CA-2024-10146,West,Office Supplies,217.38,0.1,62.1,Same Day,High Profit
+CA-2024-10147,East,Furniture,32.06,0.0,-26.54,Standard Class,Standard/Loss
+CA-2024-10148,North,Furniture,362.84,0.0,127.54,First Class,High Profit
+CA-2024-10149,South,Office Supplies,20.68,0.1,21.47,First Class,Standard/Loss
+CA-2024-10150,South,Technology,495.26,0.0,160.98,First Class,High Profit
+CA-2024-10151,Central,Technology,253.24,0.0,67.71,Same Day,High Profit
+CA-2024-10152,Central,Office Supplies,603.28,0.3,36.88,Standard Class,Standard/Loss
+CA-2024-10153,South,Furniture,72.94,0.2,18.95,Same Day,Standard/Loss
+CA-2024-10154,Central,Furniture,74.24,0.3,21.49,Same Day,Standard/Loss
+CA-2024-10155,South,Technology,45.38,0.2,1.04,Same Day,Standard/Loss
+CA-2024-10156,North,Technology,124.09,0.2,27.34,Standard Class,Standard/Loss
+CA-2024-10157,East,Furniture,236.37,0.0,93.65,Same Day,High Profit
+CA-2024-10158,East,Office Supplies,38.57,0.0,2.06,Standard Class,Standard/Loss
+CA-2024-10159,Central,Furniture,84.16,0.2,-31.36,Second Class,Standard/Loss
+CA-2024-10160,Central,Furniture,175.36,0.1,27.04,Second Class,Standard/Loss
+CA-2024-10161,East,Technology,316.42,0.1,80.93,Same Day,High Profit
+CA-2024-10162,South,Furniture,193.41,0.1,37.32,Second Class,Standard/Loss
+CA-2024-10163,North,Office Supplies,193.62,0.0,96.18,Same Day,High Profit
+CA-2024-10164,South,Office Supplies,146.62,0.0,53.72,Same Day,High Profit
+CA-2024-10165,South,Office Supplies,41.62,0.0,-1.42,Standard Class,Standard/Loss
+CA-2024-10166,East,Technology,275.53,0.4,11.7,Second Class,Standard/Loss
+CA-2024-10167,Central,Furniture,207.77,0.3,38.81,Second Class,Standard/Loss
+CA-2024-10168,East,Office Supplies,86.65,0.4,-5.26,First Class,Standard/Loss
+CA-2024-10169,North,Office Supplies,468.56,0.0,169.94,Same Day,High Profit
+CA-2024-10170,West,Furniture,82.87,0.1,55.12,Standard Class,High Profit
+CA-2024-10171,Central,Technology,623.73,0.5,-117.08,Same Day,Standard/Loss
+CA-2024-10172,West,Technology,735.79,0.4,-30.25,Second Class,Standard/Loss
+CA-2024-10173,Central,Technology,186.77,0.1,46.67,Second Class,Standard/Loss
+CA-2024-10174,East,Furniture,306.23,0.0,93.57,Second Class,High Profit
+CA-2024-10175,South,Technology,430.43,0.0,162.78,Second Class,High Profit
+CA-2024-10176,South,Furniture,117.82,0.0,43.15,Standard Class,Standard/Loss
+CA-2024-10177,East,Furniture,95.36,0.4,22.62,Same Day,Standard/Loss
+CA-2024-10178,North,Furniture,25.32,0.3,16.98,First Class,Standard/Loss
+CA-2024-10179,Central,Furniture,81.14,0.3,2.47,Same Day,Standard/Loss
+CA-2024-10180,South,Office Supplies,331.43,0.1,97.61,First Class,High Profit
+CA-2024-10181,Central,Furniture,941.51,0.1,221.44,Standard Class,High Profit
+CA-2024-10182,South,Furniture,311.22,0.0,154.86,First Class,High Profit
+CA-2024-10183,South,Office Supplies,30.53,0.0,19.79,First Class,Standard/Loss
+CA-2024-10184,South,Technology,422.03,0.1,95.18,First Class,High Profit
+CA-2024-10185,South,Office Supplies,92.57,0.2,15.78,First Class,Standard/Loss
+CA-2024-10186,North,Furniture,78.47,0.4,-16.17,First Class,Standard/Loss
+CA-2024-10187,West,Office Supplies,78.31,0.0,46.25,Standard Class,Standard/Loss
+CA-2024-10188,Central,Technology,234.69,0.2,22.71,First Class,Standard/Loss
+CA-2024-10189,West,Office Supplies,46.39,0.0,21.11,First Class,Standard/Loss
+CA-2024-10190,East,Furniture,26.75,0.4,-4.11,Same Day,Standard/Loss
+CA-2024-10191,Central,Technology,118.97,0.0,31.8,First Class,Standard/Loss
+CA-2024-10192,Central,Furniture,314.57,0.0,108.42,First Class,High Profit
+CA-2024-10193,North,Office Supplies,68.4,0.3,23.96,First Class,Standard/Loss
+CA-2024-10194,Central,Office Supplies,769.08,0.1,179.63,Same Day,High Profit
+CA-2024-10195,East,Furniture,263.45,0.1,66.55,Same Day,High Profit
+CA-2024-10196,West,Furniture,34.83,0.4,-18.2,First Class,Standard/Loss
+CA-2024-10197,Central,Furniture,117.88,0.4,-38.84,Same Day,Standard/Loss
+CA-2024-10198,Central,Furniture,303.17,0.2,68.46,Same Day,High Profit
+CA-2024-10199,North,Office Supplies,54.63,0.5,-41.01,First Class,Standard/Loss
+CA-2024-10200,Central,Furniture,301.26,0.3,7.79,Second Class,Standard/Loss
+CA-2024-10201,East,Furniture,260.79,0.2,7.43,Second Class,Standard/Loss
+CA-2024-10202,East,Technology,1027.42,0.1,267.37,Same Day,High Profit
+CA-2024-10203,East,Technology,326.78,0.0,93.61,Standard Class,High Profit
+CA-2024-10204,East,Office Supplies,64.1,0.2,19.92,Second Class,Standard/Loss
+CA-2024-10205,Central,Furniture,193.15,0.0,89.87,Same Day,High Profit
+CA-2024-10206,West,Technology,317.25,0.3,-0.46,Second Class,Standard/Loss
+CA-2024-10207,North,Technology,85.48,0.3,-9.72,Standard Class,Standard/Loss
+CA-2024-10208,South,Furniture,1233.27,0.1,337.94,Second Class,High Profit
+CA-2024-10209,North,Furniture,94.6,0.0,6.3,Second Class,Standard/Loss
+CA-2024-10210,Central,Office Supplies,55.1,0.5,23.89,First Class,Standard/Loss
+CA-2024-10211,Central,Office Supplies,230.77,0.4,-24.1,Standard Class,Standard/Loss
+CA-2024-10212,Central,Furniture,258.9,0.0,85.42,Standard Class,High Profit
+CA-2024-10213,Central,Technology,211.58,0.0,82.48,Second Class,High Profit
+CA-2024-10214,East,Furniture,230.89,0.5,-31.89,Second Class,Standard/Loss
+CA-2024-10215,East,Technology,92.35,0.4,-5.46,Same Day,Standard/Loss
+CA-2024-10216,Central,Office Supplies,43.2,0.1,0.25,Same Day,Standard/Loss
+CA-2024-10217,West,Technology,92.56,0.1,32.84,Second Class,Standard/Loss
+CA-2024-10218,West,Technology,176.84,0.4,-16.07,First Class,Standard/Loss
+CA-2024-10219,East,Office Supplies,188.25,0.4,-28.04,Second Class,Standard/Loss
+CA-2024-10220,South,Furniture,182.33,0.0,80.62,Second Class,High Profit
+CA-2024-10221,North,Furniture,89.15,0.1,44.46,Standard Class,Standard/Loss
+CA-2024-10222,West,Office Supplies,653.04,0.0,246.68,Second Class,High Profit
+CA-2024-10223,North,Furniture,60.08,0.4,-1.51,Second Class,Standard/Loss
+CA-2024-10224,Central,Technology,130.7,0.0,52.19,Second Class,High Profit
+CA-2024-10225,East,Technology,132.08,0.3,19.76,Standard Class,Standard/Loss
+CA-2024-10226,North,Office Supplies,177.63,0.0,56.46,Standard Class,High Profit
+CA-2024-10227,West,Office Supplies,233.03,0.0,89.6,Standard Class,High Profit
+CA-2024-10228,West,Technology,159.99,0.0,37.9,Same Day,Standard/Loss
+CA-2024-10229,Central,Technology,266.46,0.0,103.75,Second Class,High Profit
+CA-2024-10230,West,Technology,301.2,0.2,50.91,Second Class,High Profit
+CA-2024-10231,Central,Technology,25.48,0.4,4.51,Standard Class,Standard/Loss
+CA-2024-10232,East,Office Supplies,187.55,0.0,43.55,First Class,Standard/Loss
+CA-2024-10233,East,Technology,38.18,0.0,32.04,Same Day,Standard/Loss
+CA-2024-10234,East,Office Supplies,279.89,0.1,40.25,Second Class,Standard/Loss
+CA-2024-10235,North,Office Supplies,407.29,0.3,18.46,Second Class,Standard/Loss
+CA-2024-10236,North,Technology,670.95,0.3,39.53,Second Class,Standard/Loss
+CA-2024-10237,North,Office Supplies,138.78,0.2,24.54,Standard Class,Standard/Loss
+CA-2024-10238,East,Office Supplies,210.8,0.5,-50.68,Standard Class,Standard/Loss
+CA-2024-10239,North,Office Supplies,344.56,0.4,13.56,Second Class,Standard/Loss
+CA-2024-10240,Central,Furniture,96.85,0.1,-0.33,First Class,Standard/Loss
+CA-2024-10241,Central,Office Supplies,231.03,0.4,12.78,First Class,Standard/Loss
+CA-2024-10242,East,Office Supplies,337.12,0.1,51.27,Second Class,High Profit
+CA-2024-10243,East,Office Supplies,68.73,0.3,-20.04,First Class,Standard/Loss
+CA-2024-10244,West,Office Supplies,159.09,0.1,37.12,Second Class,Standard/Loss
+CA-2024-10245,East,Technology,230.24,0.4,-28.26,First Class,Standard/Loss
+CA-2024-10246,North,Furniture,634.1,0.2,104.69,Standard Class,High Profit
+CA-2024-10247,North,Office Supplies,288.82,0.1,82.86,Second Class,High Profit
+CA-2024-10248,South,Furniture,121.03,0.0,57.59,First Class,High Profit
+CA-2024-10249,Central,Technology,266.28,0.2,29.78,First Class,Standard/Loss
+CA-2024-10250,Central,Furniture,300.45,0.1,86.59,Second Class,High Profit
+CA-2024-10251,Central,Office Supplies,68.42,0.2,39.77,Second Class,Standard/Loss
+CA-2024-10252,South,Technology,184.96,0.0,84.0,Standard Class,High Profit
+CA-2024-10253,North,Office Supplies,62.49,0.5,-32.38,Standard Class,Standard/Loss
+CA-2024-10254,East,Office Supplies,886.4,0.0,334.9,First Class,High Profit
+CA-2024-10255,West,Furniture,163.38,0.4,7.28,Second Class,Standard/Loss
+CA-2024-10256,East,Furniture,518.44,0.0,171.61,Same Day,High Profit
+CA-2024-10257,West,Technology,90.89,0.0,43.82,Same Day,Standard/Loss
+CA-2024-10258,North,Technology,345.27,0.0,106.22,Standard Class,High Profit
+CA-2024-10259,Central,Technology,799.76,0.0,295.99,Same Day,High Profit
+CA-2024-10260,South,Technology,557.95,0.3,31.93,Standard Class,Standard/Loss
+CA-2024-10261,North,Office Supplies,209.4,0.1,31.54,First Class,Standard/Loss
+CA-2024-10262,South,Technology,38.48,0.1,-34.82,First Class,Standard/Loss
+CA-2024-10263,Central,Office Supplies,200.6,0.4,-7.7,Same Day,Standard/Loss
+CA-2024-10264,North,Technology,302.45,0.1,80.55,Same Day,High Profit
+CA-2024-10265,South,Technology,770.1,0.3,23.05,Standard Class,Standard/Loss
+CA-2024-10266,South,Office Supplies,390.45,0.0,109.72,Second Class,High Profit
+CA-2024-10267,Central,Office Supplies,180.68,0.1,46.96,Standard Class,Standard/Loss
+CA-2024-10268,West,Furniture,24.75,0.0,39.17,Second Class,Standard/Loss
+CA-2024-10269,East,Technology,204.96,0.1,40.09,Same Day,Standard/Loss
+CA-2024-10270,Central,Technology,133.72,0.1,13.92,First Class,Standard/Loss
+CA-2024-10271,East,Technology,168.15,0.0,40.99,Second Class,Standard/Loss
+CA-2024-10272,North,Furniture,85.6,0.1,27.3,Standard Class,Standard/Loss
+CA-2024-10273,East,Office Supplies,47.06,0.0,37.73,Second Class,Standard/Loss
+CA-2024-10274,West,Technology,129.23,0.0,48.24,Same Day,Standard/Loss
+CA-2024-10275,South,Technology,701.71,0.3,19.66,Same Day,Standard/Loss
+CA-2024-10276,Central,Furniture,35.23,0.1,20.78,Standard Class,Standard/Loss
+CA-2024-10277,Central,Technology,52.28,0.0,3.12,First Class,Standard/Loss
+CA-2024-10278,Central,Office Supplies,513.37,0.5,-68.86,First Class,Standard/Loss
+CA-2024-10279,West,Furniture,626.68,0.0,214.6,Second Class,High Profit
+CA-2024-10280,North,Technology,242.43,0.1,70.24,Standard Class,High Profit
+CA-2024-10281,Central,Office Supplies,61.56,0.0,22.11,Same Day,Standard/Loss
+CA-2024-10282,South,Furniture,41.77,0.2,19.4,First Class,Standard/Loss
+CA-2024-10283,North,Technology,95.18,0.1,35.35,Second Class,Standard/Loss
+CA-2024-10284,South,Furniture,251.91,0.0,85.67,Second Class,High Profit
+CA-2024-10285,West,Office Supplies,405.42,0.0,120.44,Same Day,High Profit
+CA-2024-10286,East,Office Supplies,76.25,0.0,13.36,Same Day,Standard/Loss
+CA-2024-10287,North,Office Supplies,423.39,0.1,82.43,First Class,High Profit
+CA-2024-10288,Central,Furniture,448.6,0.2,91.51,Same Day,High Profit
+CA-2024-10289,West,Furniture,636.67,0.4,-47.55,Standard Class,Standard/Loss
+CA-2024-10290,East,Furniture,147.43,0.1,18.73,First Class,Standard/Loss
+CA-2024-10291,South,Technology,68.88,0.0,-5.33,Standard Class,Standard/Loss
+CA-2024-10292,West,Office Supplies,164.85,0.0,71.42,Second Class,High Profit
+CA-2024-10293,West,Office Supplies,26.05,0.4,-12.7,Second Class,Standard/Loss
+CA-2024-10294,East,Office Supplies,370.74,0.5,-55.45,Standard Class,Standard/Loss
+CA-2024-10295,South,Office Supplies,385.75,0.0,144.63,Standard Class,High Profit
+CA-2024-10296,East,Office Supplies,482.92,0.0,168.39,First Class,High Profit
+CA-2024-10297,Central,Technology,374.01,0.5,-61.48,Second Class,Standard/Loss
+CA-2024-10298,Central,Technology,329.11,0.0,90.73,Second Class,High Profit
+CA-2024-10299,West,Technology,121.8,0.0,56.69,Standard Class,High Profit
+CA-2024-10300,South,Office Supplies,979.4,0.1,225.04,First Class,High Profit
+CA-2024-10301,North,Technology,214.53,0.0,74.3,Same Day,High Profit
+CA-2024-10302,South,Office Supplies,184.79,0.4,-6.65,Second Class,Standard/Loss
+CA-2024-10303,Central,Furniture,656.29,0.2,124.27,Same Day,High Profit
+CA-2024-10304,West,Furniture,459.35,0.0,161.13,First Class,High Profit
+CA-2024-10305,East,Technology,27.6,0.3,15.88,Second Class,Standard/Loss
+CA-2024-10306,Central,Furniture,149.99,0.3,-13.8,Second Class,Standard/Loss
+CA-2024-10307,West,Technology,118.73,0.0,39.84,Second Class,Standard/Loss
+CA-2024-10308,West,Office Supplies,65.03,0.0,24.4,First Class,Standard/Loss
+CA-2024-10309,North,Technology,330.45,0.2,40.98,Second Class,Standard/Loss
+CA-2024-10310,West,Furniture,189.49,0.0,42.56,Same Day,Standard/Loss
+CA-2024-10311,East,Furniture,111.86,0.1,14.87,Same Day,Standard/Loss
+CA-2024-10312,North,Technology,202.51,0.1,35.42,Standard Class,Standard/Loss
+CA-2024-10313,North,Technology,93.17,0.3,11.23,Same Day,Standard/Loss
+CA-2024-10314,South,Technology,439.21,0.1,81.89,First Class,High Profit
+CA-2024-10315,South,Technology,124.09,0.0,28.22,Second Class,Standard/Loss
+CA-2024-10316,North,Furniture,112.84,0.1,36.94,First Class,Standard/Loss
+CA-2024-10317,West,Office Supplies,118.04,0.0,12.79,Second Class,Standard/Loss
+CA-2024-10318,Central,Office Supplies,102.16,0.2,9.67,Second Class,Standard/Loss
+CA-2024-10319,South,Furniture,872.48,0.1,222.46,Same Day,High Profit
+CA-2024-10320,South,Technology,110.25,0.0,29.99,Same Day,Standard/Loss
+CA-2024-10321,East,Furniture,292.84,0.0,110.18,First Class,High Profit
+CA-2024-10322,North,Office Supplies,362.12,0.1,88.95,Standard Class,High Profit
+CA-2024-10323,West,Office Supplies,451.41,0.0,142.18,First Class,High Profit
+CA-2024-10324,Central,Furniture,45.75,0.3,8.5,Second Class,Standard/Loss
+CA-2024-10325,West,Furniture,34.6,0.2,32.21,Same Day,Standard/Loss
+CA-2024-10326,West,Technology,189.38,0.0,70.21,Same Day,High Profit
+CA-2024-10327,East,Technology,206.29,0.1,60.25,Standard Class,High Profit
+CA-2024-10328,West,Office Supplies,98.43,0.4,-27.54,First Class,Standard/Loss
+CA-2024-10329,Central,Technology,233.07,0.3,8.82,Same Day,Standard/Loss
+CA-2024-10330,East,Furniture,91.02,0.3,0.91,Second Class,Standard/Loss
+CA-2024-10331,North,Furniture,246.67,0.1,77.24,Same Day,High Profit
+CA-2024-10332,South,Technology,343.35,0.1,74.04,Second Class,High Profit
+CA-2024-10333,South,Office Supplies,22.5,0.2,-6.2,Same Day,Standard/Loss
+CA-2024-10334,South,Technology,370.66,0.1,88.86,Standard Class,High Profit
+CA-2024-10335,Central,Technology,35.62,0.0,13.51,Second Class,Standard/Loss
+CA-2024-10336,Central,Technology,1180.56,0.1,321.56,First Class,High Profit
+CA-2024-10337,West,Furniture,245.84,0.3,-6.09,Same Day,Standard/Loss
+CA-2024-10338,South,Furniture,161.14,0.3,-10.62,First Class,Standard/Loss
+CA-2024-10339,West,Office Supplies,573.45,0.2,109.07,Second Class,High Profit
+CA-2024-10340,Central,Furniture,294.01,0.1,77.93,Same Day,High Profit
+CA-2024-10341,East,Office Supplies,863.35,0.1,221.93,Standard Class,High Profit
+CA-2024-10342,Central,Technology,40.35,0.2,-2.59,Same Day,Standard/Loss
+CA-2024-10343,South,Technology,210.47,0.0,56.77,Same Day,High Profit
+CA-2024-10344,East,Furniture,95.19,0.2,8.71,Standard Class,Standard/Loss
+CA-2024-10345,West,Office Supplies,541.26,0.0,161.85,First Class,High Profit
+CA-2024-10346,South,Office Supplies,57.99,0.3,8.01,First Class,Standard/Loss
+CA-2024-10347,South,Furniture,262.0,0.0,102.32,Same Day,High Profit
+CA-2024-10348,South,Furniture,882.41,0.0,302.31,Standard Class,High Profit
+CA-2024-10349,Central,Furniture,154.79,0.0,53.82,First Class,High Profit
+CA-2024-10350,North,Technology,345.09,0.0,116.76,Standard Class,High Profit
+CA-2024-10351,West,Furniture,980.89,0.0,336.57,First Class,High Profit
+CA-2024-10352,Central,Technology,42.46,0.1,5.3,Standard Class,Standard/Loss
+CA-2024-10353,East,Technology,129.78,0.3,-13.34,Same Day,Standard/Loss
+CA-2024-10354,West,Furniture,151.66,0.1,34.17,Same Day,Standard/Loss
+CA-2024-10355,North,Office Supplies,68.32,0.0,11.29,Second Class,Standard/Loss
+CA-2024-10356,North,Technology,301.61,0.1,77.3,Second Class,High Profit
+CA-2024-10357,Central,Furniture,29.97,0.1,1.2,First Class,Standard/Loss
+CA-2024-10358,Central,Technology,421.44,0.5,-58.8,Same Day,Standard/Loss
+CA-2024-10359,South,Furniture,94.33,0.0,23.92,Standard Class,Standard/Loss
+CA-2024-10360,East,Technology,312.68,0.0,103.15,Second Class,High Profit
+CA-2024-10361,South,Technology,581.64,0.2,99.69,First Class,High Profit
+CA-2024-10362,Central,Technology,32.8,0.4,13.67,Same Day,Standard/Loss
+CA-2024-10363,East,Office Supplies,116.5,0.0,22.87,Second Class,Standard/Loss
+CA-2024-10364,North,Furniture,180.85,0.2,61.84,First Class,High Profit
+CA-2024-10365,South,Office Supplies,20.53,0.0,1.28,Same Day,Standard/Loss
+CA-2024-10366,Central,Furniture,163.39,0.1,59.17,Second Class,High Profit
+CA-2024-10367,South,Furniture,86.68,0.1,4.36,Second Class,Standard/Loss
+CA-2024-10368,West,Technology,68.68,0.4,10.08,Standard Class,Standard/Loss
+CA-2024-10369,North,Office Supplies,178.91,0.4,-11.73,Second Class,Standard/Loss
+CA-2024-10370,South,Furniture,138.56,0.0,30.07,Same Day,Standard/Loss
+CA-2024-10371,Central,Furniture,93.3,0.4,11.55,First Class,Standard/Loss
+CA-2024-10372,South,Furniture,224.12,0.3,5.04,Standard Class,Standard/Loss
+CA-2024-10373,South,Office Supplies,247.37,0.1,79.19,First Class,High Profit
+CA-2024-10374,West,Furniture,63.05,0.0,32.67,Same Day,Standard/Loss
+CA-2024-10375,South,Furniture,280.77,0.3,0.7,Second Class,Standard/Loss
+CA-2024-10376,North,Furniture,296.14,0.3,16.13,Standard Class,Standard/Loss
+CA-2024-10377,West,Office Supplies,636.01,0.1,146.52,First Class,High Profit
+CA-2024-10378,North,Technology,511.97,0.5,-70.48,Same Day,Standard/Loss
+CA-2024-10379,North,Technology,20.19,0.0,-16.23,Same Day,Standard/Loss
+CA-2024-10380,Central,Furniture,157.29,0.4,8.69,Second Class,Standard/Loss
+CA-2024-10381,Central,Furniture,40.7,0.4,-16.41,Standard Class,Standard/Loss
+CA-2024-10382,North,Furniture,166.4,0.4,-26.08,Second Class,Standard/Loss
+CA-2024-10383,South,Furniture,1052.06,0.0,357.42,Same Day,High Profit
+CA-2024-10384,Central,Technology,195.69,0.0,72.22,Standard Class,High Profit
+CA-2024-10385,South,Furniture,413.23,0.3,36.65,Same Day,Standard/Loss
+CA-2024-10386,South,Office Supplies,82.07,0.1,41.98,Same Day,Standard/Loss
+CA-2024-10387,North,Furniture,487.14,0.3,35.58,First Class,Standard/Loss
+CA-2024-10388,North,Office Supplies,129.95,0.0,61.25,Standard Class,High Profit
+CA-2024-10389,East,Furniture,73.01,0.0,8.67,First Class,Standard/Loss
+CA-2024-10390,Central,Office Supplies,106.72,0.3,16.7,Standard Class,Standard/Loss
+CA-2024-10391,North,Office Supplies,630.54,0.0,236.62,Second Class,High Profit
+CA-2024-10392,East,Technology,399.19,0.3,17.48,Same Day,Standard/Loss
+CA-2024-10393,North,Furniture,446.64,0.2,56.25,Standard Class,High Profit
+CA-2024-10394,East,Office Supplies,306.24,0.0,85.2,First Class,High Profit
+CA-2024-10395,West,Technology,1094.4,0.5,-177.28,Same Day,Standard/Loss
+CA-2024-10396,Central,Technology,71.15,0.0,4.19,Standard Class,Standard/Loss
+CA-2024-10397,South,Furniture,203.59,0.4,-37.41,Second Class,Standard/Loss
+CA-2024-10398,East,Furniture,71.59,0.2,6.91,Same Day,Standard/Loss
+CA-2024-10399,Central,Office Supplies,61.87,0.0,23.08,First Class,Standard/Loss
+CA-2024-10400,West,Office Supplies,47.36,0.1,8.15,Same Day,Standard/Loss
+CA-2024-10401,East,Office Supplies,546.9,0.0,192.63,Second Class,High Profit
+CA-2024-10402,Central,Furniture,51.9,0.3,4.54,Second Class,Standard/Loss
+CA-2024-10403,South,Technology,199.55,0.3,19.24,Standard Class,Standard/Loss
+CA-2024-10404,North,Office Supplies,358.87,0.2,30.71,Standard Class,Standard/Loss
+CA-2024-10405,West,Technology,231.31,0.0,71.36,Standard Class,High Profit
+CA-2024-10406,West,Furniture,463.56,0.2,68.78,Same Day,High Profit
+CA-2024-10407,Central,Furniture,458.2,0.3,32.92,Standard Class,Standard/Loss
+CA-2024-10408,East,Office Supplies,164.57,0.1,49.66,Standard Class,Standard/Loss
+CA-2024-10409,West,Office Supplies,122.19,0.0,41.31,Same Day,Standard/Loss
+CA-2024-10410,South,Furniture,50.22,0.2,12.02,Second Class,Standard/Loss
+CA-2024-10411,North,Furniture,176.39,0.3,-9.75,Second Class,Standard/Loss
+CA-2024-10412,Central,Office Supplies,275.46,0.3,27.99,Same Day,Standard/Loss
+CA-2024-10413,East,Technology,626.58,0.0,238.22,Second Class,High Profit
+CA-2024-10414,West,Technology,97.65,0.0,34.29,Same Day,Standard/Loss
+CA-2024-10415,North,Office Supplies,236.38,0.4,-22.9,Second Class,Standard/Loss
+CA-2024-10416,North,Office Supplies,1120.96,0.0,389.91,Standard Class,High Profit
+CA-2024-10417,South,Furniture,263.89,0.1,64.24,Standard Class,High Profit
+CA-2024-10418,West,Technology,102.78,0.1,21.71,Standard Class,Standard/Loss
+CA-2024-10419,North,Furniture,24.18,0.0,6.72,Second Class,Standard/Loss
+CA-2024-10420,South,Technology,292.93,0.0,94.81,Standard Class,High Profit
+CA-2024-10421,East,Technology,115.85,0.2,12.5,Second Class,Standard/Loss
+CA-2024-10422,North,Technology,216.87,0.4,-5.73,Second Class,Standard/Loss
+CA-2024-10423,East,Technology,74.12,0.0,-18.14,Same Day,Standard/Loss
+CA-2024-10424,South,Office Supplies,279.9,0.1,60.69,Standard Class,High Profit
+CA-2024-10425,North,Furniture,188.1,0.2,33.75,Second Class,Standard/Loss
+CA-2024-10426,East,Office Supplies,115.84,0.0,17.83,Second Class,Standard/Loss
+CA-2024-10427,West,Furniture,125.33,0.0,43.12,First Class,Standard/Loss
+CA-2024-10428,South,Furniture,572.64,0.0,202.26,Same Day,High Profit
+CA-2024-10429,West,Office Supplies,228.63,0.3,9.18,Same Day,Standard/Loss
+CA-2024-10430,East,Furniture,118.29,0.0,57.04,Same Day,High Profit
+CA-2024-10431,Central,Furniture,331.61,0.0,112.63,Second Class,High Profit
+CA-2024-10432,East,Furniture,119.4,0.1,-1.14,First Class,Standard/Loss
+CA-2024-10433,South,Office Supplies,226.04,0.0,80.63,Second Class,High Profit
+CA-2024-10434,North,Technology,230.04,0.0,66.98,Standard Class,High Profit
+CA-2024-10435,North,Technology,392.58,0.4,3.29,Second Class,Standard/Loss
+CA-2024-10436,East,Office Supplies,193.24,0.4,-18.47,Same Day,Standard/Loss
+CA-2024-10437,North,Technology,146.9,0.0,32.46,First Class,Standard/Loss
+CA-2024-10438,North,Furniture,101.66,0.2,42.15,Second Class,Standard/Loss
+CA-2024-10439,South,Office Supplies,92.13,0.1,36.56,First Class,Standard/Loss
+CA-2024-10440,East,Technology,126.78,0.3,8.88,First Class,Standard/Loss
+CA-2024-10441,South,Office Supplies,341.19,0.2,61.93,Same Day,High Profit
+CA-2024-10442,North,Furniture,36.47,0.0,-12.26,Standard Class,Standard/Loss
+CA-2024-10443,Central,Technology,70.73,0.1,47.55,Same Day,Standard/Loss
+CA-2024-10444,East,Furniture,173.18,0.1,38.85,Same Day,Standard/Loss
+CA-2024-10445,East,Technology,1931.3,0.0,680.14,Second Class,High Profit
+CA-2024-10446,East,Technology,304.72,0.0,106.18,Same Day,High Profit
+CA-2024-10447,North,Furniture,117.84,0.1,41.66,Second Class,Standard/Loss
+CA-2024-10448,East,Office Supplies,92.69,0.2,13.66,First Class,Standard/Loss
+CA-2024-10449,Central,Office Supplies,380.49,0.0,165.1,Standard Class,High Profit
+CA-2024-10450,East,Technology,169.3,0.0,65.79,Second Class,High Profit
+CA-2024-10451,West,Furniture,55.13,0.0,20.54,Second Class,Standard/Loss
+CA-2024-10452,South,Furniture,52.2,0.0,35.11,Same Day,Standard/Loss
+CA-2024-10453,West,Technology,59.03,0.0,1.32,Second Class,Standard/Loss
+CA-2024-10454,Central,Office Supplies,248.64,0.5,-37.22,Same Day,Standard/Loss
+CA-2024-10455,North,Furniture,463.36,0.3,-7.03,Second Class,Standard/Loss
+CA-2024-10456,Central,Office Supplies,150.17,0.2,7.56,Same Day,Standard/Loss
+CA-2024-10457,West,Furniture,727.16,0.1,175.92,First Class,High Profit
+CA-2024-10458,West,Technology,76.89,0.0,18.61,Same Day,Standard/Loss
+CA-2024-10459,West,Office Supplies,101.86,0.1,41.68,Same Day,Standard/Loss
+CA-2024-10460,Central,Furniture,32.9,0.3,1.85,Standard Class,Standard/Loss
+CA-2024-10461,East,Office Supplies,85.38,0.0,32.27,First Class,Standard/Loss
+CA-2024-10462,Central,Office Supplies,75.53,0.0,2.54,First Class,Standard/Loss
+CA-2024-10463,East,Technology,153.58,0.1,28.56,Second Class,Standard/Loss
+CA-2024-10464,North,Furniture,90.46,0.0,42.93,Standard Class,Standard/Loss
+CA-2024-10465,North,Technology,50.45,0.0,34.89,Standard Class,Standard/Loss
+CA-2024-10466,West,Office Supplies,139.12,0.5,-27.96,Standard Class,Standard/Loss
+CA-2024-10467,Central,Office Supplies,80.91,0.3,27.98,Second Class,Standard/Loss
+CA-2024-10468,South,Furniture,502.24,0.0,155.77,Standard Class,High Profit
+CA-2024-10469,East,Technology,152.5,0.4,2.04,Same Day,Standard/Loss
+CA-2024-10470,Central,Furniture,175.79,0.0,27.24,Standard Class,Standard/Loss
+CA-2024-10471,North,Furniture,347.51,0.4,-42.43,Second Class,Standard/Loss
+CA-2024-10472,Central,Furniture,65.74,0.1,43.59,Standard Class,Standard/Loss
+CA-2024-10473,North,Office Supplies,180.55,0.0,35.31,Second Class,Standard/Loss
+CA-2024-10474,Central,Office Supplies,283.42,0.0,123.2,First Class,High Profit
+CA-2024-10475,South,Furniture,233.95,0.0,94.01,Same Day,High Profit
+CA-2024-10476,South,Office Supplies,77.37,0.1,42.57,Second Class,Standard/Loss
+CA-2024-10477,South,Office Supplies,25.8,0.2,2.86,Same Day,Standard/Loss
+CA-2024-10478,South,Office Supplies,817.65,0.0,273.18,Same Day,High Profit
+CA-2024-10479,South,Furniture,41.89,0.2,15.48,Same Day,Standard/Loss
+CA-2024-10480,Central,Furniture,205.86,0.0,71.29,Same Day,High Profit
+CA-2024-10481,North,Office Supplies,40.78,0.0,-23.51,Second Class,Standard/Loss
+CA-2024-10482,South,Office Supplies,491.94,0.4,-16.63,Same Day,Standard/Loss
+CA-2024-10483,East,Furniture,215.7,0.0,69.71,Standard Class,High Profit
+CA-2024-10484,South,Furniture,1015.64,0.0,377.65,Same Day,High Profit
+CA-2024-10485,East,Furniture,194.93,0.1,24.03,First Class,Standard/Loss
+CA-2024-10486,Central,Furniture,185.64,0.1,34.67,Standard Class,Standard/Loss
+CA-2024-10487,Central,Technology,431.91,0.0,158.34,Standard Class,High Profit
+CA-2024-10488,East,Technology,867.17,0.0,304.95,Standard Class,High Profit
+CA-2024-10489,West,Technology,219.58,0.1,51.43,Same Day,High Profit
+CA-2024-10490,South,Office Supplies,360.45,0.0,130.52,Same Day,High Profit
+CA-2024-10491,Central,Office Supplies,296.91,0.2,46.36,Second Class,Standard/Loss
+CA-2024-10492,East,Furniture,248.34,0.0,84.48,Standard Class,High Profit
+CA-2024-10493,North,Furniture,195.54,0.1,56.2,Second Class,High Profit
+CA-2024-10494,West,Office Supplies,346.41,0.1,83.67,Same Day,High Profit
+CA-2024-10495,North,Furniture,493.18,0.0,166.6,Standard Class,High Profit
+CA-2024-10496,North,Furniture,234.28,0.4,-18.56,First Class,Standard/Loss
+CA-2024-10497,North,Office Supplies,222.28,0.3,1.23,Second Class,Standard/Loss
+CA-2024-10498,South,Technology,260.7,0.0,108.28,Standard Class,High Profit
+CA-2024-10499,East,Furniture,134.95,0.0,23.98,First Class,Standard/Loss
+CA-2024-10500,North,Office Supplies,91.23,0.3,-14.3,Second Class,Standard/Loss
+CA-2024-10501,South,Office Supplies,265.69,0.1,59.56,Second Class,High Profit
+CA-2024-10502,North,Office Supplies,55.54,0.5,30.62,Standard Class,Standard/Loss
+CA-2024-10503,West,Office Supplies,311.5,0.4,-13.1,Standard Class,Standard/Loss
+CA-2024-10504,West,Technology,255.58,0.0,80.06,Second Class,High Profit
+CA-2024-10505,South,Office Supplies,1043.95,0.5,-144.66,First Class,Standard/Loss
+CA-2024-10506,South,Technology,35.98,0.0,13.15,Second Class,Standard/Loss
+CA-2024-10507,East,Office Supplies,600.26,0.1,152.44,First Class,High Profit
+CA-2024-10508,South,Furniture,259.78,0.1,53.87,Second Class,High Profit
+CA-2024-10509,South,Office Supplies,76.22,0.5,-19.97,Second Class,Standard/Loss
+CA-2024-10510,West,Furniture,236.37,0.0,66.14,First Class,High Profit
+CA-2024-10511,East,Furniture,173.57,0.0,55.05,First Class,High Profit
+CA-2024-10512,Central,Office Supplies,216.43,0.4,-19.2,Second Class,Standard/Loss
+CA-2024-10513,Central,Furniture,83.99,0.5,-7.34,Standard Class,Standard/Loss
+CA-2024-10514,West,Furniture,534.17,0.0,181.08,Standard Class,High Profit
+CA-2024-10515,West,Office Supplies,54.63,0.4,24.72,Same Day,Standard/Loss
+CA-2024-10516,West,Technology,72.86,0.1,3.63,Same Day,Standard/Loss
+CA-2024-10517,North,Furniture,86.48,0.1,34.33,Same Day,Standard/Loss
+CA-2024-10518,West,Office Supplies,75.41,0.0,12.07,Second Class,Standard/Loss
+CA-2024-10519,West,Office Supplies,408.9,0.0,147.93,First Class,High Profit
+CA-2024-10520,West,Technology,60.0,0.3,15.76,Second Class,Standard/Loss
+CA-2024-10521,West,Technology,33.76,0.0,-30.24,Second Class,Standard/Loss
+CA-2024-10522,South,Office Supplies,987.83,0.4,-29.31,Second Class,Standard/Loss
+CA-2024-10523,South,Technology,172.6,0.3,-15.83,Same Day,Standard/Loss
+CA-2024-10524,East,Technology,118.55,0.3,23.34,Same Day,Standard/Loss
+CA-2024-10525,North,Office Supplies,58.11,0.5,-20.35,First Class,Standard/Loss
+CA-2024-10526,Central,Technology,553.11,0.1,113.23,First Class,High Profit
+CA-2024-10527,East,Office Supplies,405.14,0.2,37.16,First Class,Standard/Loss
+CA-2024-10528,North,Furniture,63.94,0.0,43.28,First Class,Standard/Loss
+CA-2024-10529,East,Furniture,98.19,0.0,48.91,Standard Class,Standard/Loss
+CA-2024-10530,West,Technology,39.33,0.0,6.1,Second Class,Standard/Loss
+CA-2024-10531,North,Technology,127.97,0.0,28.89,First Class,Standard/Loss
+CA-2024-10532,Central,Office Supplies,110.21,0.3,0.68,First Class,Standard/Loss
+CA-2024-10533,Central,Office Supplies,298.27,0.0,96.66,First Class,High Profit
+CA-2024-10534,North,Technology,456.56,0.0,208.14,First Class,High Profit
+CA-2024-10535,Central,Furniture,242.89,0.2,55.42,Standard Class,High Profit
+CA-2024-10536,East,Office Supplies,140.25,0.0,72.36,Second Class,High Profit
+CA-2024-10537,North,Furniture,206.56,0.0,77.34,Standard Class,High Profit
+CA-2024-10538,Central,Technology,1209.99,0.0,435.42,Second Class,High Profit
+CA-2024-10539,Central,Office Supplies,683.29,0.1,177.52,Second Class,High Profit
+CA-2024-10540,Central,Furniture,871.46,0.5,-128.75,Same Day,Standard/Loss
+CA-2024-10541,North,Office Supplies,166.04,0.1,39.05,Second Class,Standard/Loss
+CA-2024-10542,East,Furniture,601.72,0.0,222.43,Second Class,High Profit
+CA-2024-10543,East,Technology,150.25,0.0,44.47,Standard Class,Standard/Loss
+CA-2024-10544,South,Technology,383.39,0.0,154.78,Second Class,High Profit
+CA-2024-10545,South,Technology,224.05,0.1,45.6,Same Day,Standard/Loss
+CA-2024-10546,South,Furniture,884.83,0.0,286.98,Standard Class,High Profit
+CA-2024-10547,Central,Technology,44.37,0.4,-16.37,Same Day,Standard/Loss
+CA-2024-10548,West,Office Supplies,169.29,0.0,69.42,Same Day,High Profit
+CA-2024-10549,South,Office Supplies,132.36,0.1,36.25,First Class,Standard/Loss
+CA-2024-10550,North,Technology,385.75,0.2,38.97,Same Day,Standard/Loss
+CA-2024-10551,North,Office Supplies,356.22,0.1,70.24,Second Class,High Profit
+CA-2024-10552,South,Furniture,182.0,0.2,24.11,Second Class,Standard/Loss
+CA-2024-10553,South,Technology,719.07,0.0,241.76,Second Class,High Profit
+CA-2024-10554,East,Technology,709.35,0.4,-35.79,First Class,Standard/Loss
+CA-2024-10555,East,Technology,411.64,0.0,134.94,Second Class,High Profit
+CA-2024-10556,Central,Office Supplies,400.38,0.4,-30.38,First Class,Standard/Loss
+CA-2024-10557,South,Technology,225.47,0.0,63.88,Standard Class,High Profit
+CA-2024-10558,South,Furniture,772.78,0.0,270.56,Second Class,High Profit
+CA-2024-10559,Central,Technology,60.75,0.5,-16.8,Second Class,Standard/Loss
+CA-2024-10560,East,Office Supplies,165.15,0.0,49.3,Standard Class,Standard/Loss
+CA-2024-10561,East,Furniture,23.21,0.2,21.89,Same Day,Standard/Loss
+CA-2024-10562,West,Furniture,150.8,0.2,21.07,Standard Class,Standard/Loss
+CA-2024-10563,East,Technology,269.74,0.4,9.6,Same Day,Standard/Loss
+CA-2024-10564,South,Furniture,301.36,0.1,75.18,Same Day,High Profit
+CA-2024-10565,Central,Furniture,632.74,0.3,15.19,Second Class,Standard/Loss
+CA-2024-10566,Central,Office Supplies,80.28,0.5,-31.49,Second Class,Standard/Loss
+CA-2024-10567,East,Office Supplies,615.59,0.0,228.56,Second Class,High Profit
+CA-2024-10568,North,Office Supplies,168.42,0.0,25.81,Second Class,Standard/Loss
+CA-2024-10569,South,Furniture,146.67,0.1,43.61,Same Day,Standard/Loss
+CA-2024-10570,Central,Office Supplies,87.91,0.5,-5.52,Standard Class,Standard/Loss
+CA-2024-10571,West,Office Supplies,306.95,0.1,100.84,First Class,High Profit
+CA-2024-10572,Central,Office Supplies,302.18,0.0,110.41,Same Day,High Profit
+CA-2024-10573,South,Technology,264.75,0.0,78.75,First Class,High Profit
+CA-2024-10574,Central,Office Supplies,314.34,0.0,124.46,First Class,High Profit
+CA-2024-10575,West,Technology,63.41,0.2,14.31,Standard Class,Standard/Loss
+CA-2024-10576,North,Technology,426.76,0.0,119.84,Same Day,High Profit
+CA-2024-10577,West,Office Supplies,271.55,0.0,70.22,Standard Class,High Profit
+CA-2024-10578,West,Furniture,555.65,0.0,210.93,Same Day,High Profit
+CA-2024-10579,North,Technology,321.68,0.5,-37.55,Same Day,Standard/Loss
+CA-2024-10580,West,Furniture,80.73,0.4,-19.63,Same Day,Standard/Loss
+CA-2024-10581,South,Technology,495.69,0.0,174.51,Second Class,High Profit
+CA-2024-10582,South,Office Supplies,563.16,0.1,142.96,Same Day,High Profit
+CA-2024-10583,Central,Office Supplies,102.49,0.0,37.53,Second Class,Standard/Loss
+CA-2024-10584,East,Technology,55.49,0.1,31.72,Standard Class,Standard/Loss
+CA-2024-10585,Central,Office Supplies,885.19,0.0,322.05,Standard Class,High Profit
+CA-2024-10586,East,Office Supplies,164.35,0.0,34.84,Standard Class,Standard/Loss
+CA-2024-10587,North,Technology,163.76,0.1,64.17,First Class,High Profit
+CA-2024-10588,South,Furniture,114.83,0.0,27.67,First Class,Standard/Loss
+CA-2024-10589,North,Office Supplies,485.67,0.2,82.04,First Class,High Profit
+CA-2024-10590,East,Furniture,180.11,0.0,59.64,Standard Class,High Profit
+CA-2024-10591,North,Technology,744.71,0.0,281.58,First Class,High Profit
+CA-2024-10592,North,Technology,87.64,0.1,16.18,Second Class,Standard/Loss
+CA-2024-10593,Central,Office Supplies,57.9,0.4,9.73,First Class,Standard/Loss
+CA-2024-10594,West,Office Supplies,106.17,0.1,40.89,First Class,Standard/Loss
+CA-2024-10595,West,Furniture,165.92,0.3,-0.21,Second Class,Standard/Loss
+CA-2024-10596,West,Office Supplies,142.66,0.5,4.45,Second Class,Standard/Loss
+CA-2024-10597,South,Furniture,208.21,0.2,15.52,Same Day,Standard/Loss
+CA-2024-10598,East,Office Supplies,248.4,0.1,44.31,Standard Class,Standard/Loss
+CA-2024-10599,Central,Technology,66.75,0.4,-13.27,Second Class,Standard/Loss
+CA-2024-10600,South,Technology,45.98,0.0,13.38,First Class,Standard/Loss
+CA-2024-10601,South,Technology,332.5,0.0,124.98,Same Day,High Profit
+CA-2024-10602,East,Office Supplies,459.72,0.0,145.64,Standard Class,High Profit
+CA-2024-10603,West,Office Supplies,119.93,0.0,51.07,Second Class,High Profit
+CA-2024-10604,South,Furniture,24.03,0.1,14.79,Standard Class,Standard/Loss
+CA-2024-10605,South,Furniture,66.39,0.5,11.21,Standard Class,Standard/Loss
+CA-2024-10606,Central,Furniture,329.67,0.0,105.82,First Class,High Profit
+CA-2024-10607,South,Office Supplies,815.36,0.0,297.5,First Class,High Profit
+CA-2024-10608,West,Office Supplies,466.84,0.0,167.66,Standard Class,High Profit
+CA-2024-10609,North,Technology,176.42,0.1,32.16,First Class,Standard/Loss
+CA-2024-10610,North,Furniture,55.27,0.0,38.5,Second Class,Standard/Loss
+CA-2024-10611,Central,Furniture,26.39,0.2,14.99,First Class,Standard/Loss
+CA-2024-10612,North,Technology,414.67,0.5,-64.96,Standard Class,Standard/Loss
+CA-2024-10613,North,Office Supplies,387.87,0.0,155.86,Standard Class,High Profit
+CA-2024-10614,Central,Furniture,156.19,0.3,-1.74,First Class,Standard/Loss
+CA-2024-10615,West,Furniture,59.67,0.1,-20.13,Standard Class,Standard/Loss
+CA-2024-10616,West,Office Supplies,21.74,0.4,-7.71,Standard Class,Standard/Loss
+CA-2024-10617,West,Office Supplies,74.13,0.0,33.43,Same Day,Standard/Loss
+CA-2024-10618,East,Office Supplies,62.07,0.0,24.58,Second Class,Standard/Loss
+CA-2024-10619,North,Technology,87.38,0.0,29.42,First Class,Standard/Loss
+CA-2024-10620,South,Technology,20.92,0.2,19.85,Second Class,Standard/Loss
+CA-2024-10621,North,Technology,315.41,0.0,126.74,Second Class,High Profit
+CA-2024-10622,Central,Office Supplies,139.82,0.1,31.34,First Class,Standard/Loss
+CA-2024-10623,Central,Technology,54.39,0.1,4.42,First Class,Standard/Loss
+CA-2024-10624,North,Technology,22.57,0.0,18.78,First Class,Standard/Loss
+CA-2024-10625,East,Furniture,158.93,0.0,72.51,First Class,High Profit
+CA-2024-10626,North,Technology,574.55,0.4,-31.7,Same Day,Standard/Loss
+CA-2024-10627,North,Furniture,246.11,0.1,55.82,Same Day,High Profit
+CA-2024-10628,East,Furniture,25.31,0.0,7.56,First Class,Standard/Loss
+CA-2024-10629,North,Office Supplies,596.34,0.2,101.74,Second Class,High Profit
+CA-2024-10630,West,Office Supplies,64.5,0.2,7.23,Standard Class,Standard/Loss
+CA-2024-10631,East,Technology,589.62,0.2,85.26,First Class,High Profit
+CA-2024-10632,South,Office Supplies,624.54,0.1,173.88,Same Day,High Profit
+CA-2024-10633,South,Furniture,418.09,0.1,101.43,First Class,High Profit
+CA-2024-10634,Central,Furniture,71.74,0.0,57.1,Same Day,High Profit
+CA-2024-10635,West,Furniture,200.73,0.2,13.41,Standard Class,Standard/Loss
+CA-2024-10636,East,Technology,795.75,0.3,49.86,Same Day,Standard/Loss
+CA-2024-10637,West,Furniture,137.38,0.2,16.25,Same Day,Standard/Loss
+CA-2024-10638,South,Office Supplies,71.8,0.5,10.11,Same Day,Standard/Loss
+CA-2024-10639,South,Technology,23.74,0.0,15.44,Standard Class,Standard/Loss
+CA-2024-10640,South,Office Supplies,103.52,0.0,48.18,Standard Class,Standard/Loss
+CA-2024-10641,South,Furniture,84.29,0.0,17.61,First Class,Standard/Loss
+CA-2024-10642,East,Technology,303.38,0.0,95.74,Second Class,High Profit
+CA-2024-10643,West,Office Supplies,29.97,0.2,-10.21,Second Class,Standard/Loss
+CA-2024-10644,North,Technology,654.36,0.0,218.75,Standard Class,High Profit
+CA-2024-10645,West,Furniture,1210.29,0.4,-56.41,Same Day,Standard/Loss
+CA-2024-10646,East,Furniture,302.14,0.2,49.94,First Class,Standard/Loss
+CA-2024-10647,North,Technology,230.31,0.1,62.47,Second Class,High Profit
+CA-2024-10648,South,Office Supplies,50.71,0.1,32.38,Second Class,Standard/Loss
+CA-2024-10649,West,Office Supplies,593.63,0.4,-48.4,Same Day,Standard/Loss
+CA-2024-10650,Central,Office Supplies,338.42,0.3,16.57,Standard Class,Standard/Loss
+CA-2024-10651,North,Technology,197.83,0.4,-29.59,Standard Class,Standard/Loss
+CA-2024-10652,North,Technology,64.54,0.0,11.36,Standard Class,Standard/Loss
+CA-2024-10653,Central,Furniture,290.57,0.3,31.54,Same Day,Standard/Loss
+CA-2024-10654,North,Furniture,503.95,0.3,44.18,Standard Class,Standard/Loss
+CA-2024-10655,Central,Technology,783.2,0.2,131.18,Same Day,High Profit
+CA-2024-10656,East,Technology,67.8,0.1,23.32,Same Day,Standard/Loss
+CA-2024-10657,South,Furniture,188.53,0.0,65.33,Same Day,High Profit
+CA-2024-10658,North,Technology,28.54,0.0,8.2,Same Day,Standard/Loss
+CA-2024-10659,South,Technology,136.68,0.2,29.26,First Class,Standard/Loss
+CA-2024-10660,South,Furniture,575.63,0.2,78.61,Same Day,High Profit
+CA-2024-10661,South,Furniture,92.81,0.5,3.8,Same Day,Standard/Loss
+CA-2024-10662,West,Furniture,56.65,0.2,-5.29,Second Class,Standard/Loss
+CA-2024-10663,East,Furniture,499.04,0.5,-80.5,First Class,Standard/Loss
+CA-2024-10664,North,Office Supplies,73.34,0.4,6.35,Same Day,Standard/Loss
+CA-2024-10665,Central,Technology,169.58,0.0,74.92,Same Day,High Profit
+CA-2024-10666,South,Office Supplies,28.07,0.3,10.01,Same Day,Standard/Loss
+CA-2024-10667,East,Furniture,236.42,0.0,80.09,Same Day,High Profit
+CA-2024-10668,East,Technology,20.59,0.0,5.27,Standard Class,Standard/Loss
+CA-2024-10669,North,Technology,64.53,0.0,34.42,Second Class,Standard/Loss
+CA-2024-10670,West,Technology,167.21,0.0,53.3,Second Class,High Profit
+CA-2024-10671,Central,Furniture,31.22,0.3,-8.46,Second Class,Standard/Loss
+CA-2024-10672,South,Office Supplies,176.2,0.0,80.92,Standard Class,High Profit
+CA-2024-10673,Central,Technology,80.84,0.5,-19.55,First Class,Standard/Loss
+CA-2024-10674,North,Technology,335.57,0.1,85.9,Standard Class,High Profit
+CA-2024-10675,East,Office Supplies,97.89,0.5,-18.05,Standard Class,Standard/Loss
+CA-2024-10676,East,Office Supplies,34.34,0.1,9.42,Same Day,Standard/Loss
+CA-2024-10677,West,Office Supplies,1304.52,0.0,459.45,Standard Class,High Profit
+CA-2024-10678,North,Office Supplies,130.98,0.1,33.6,First Class,Standard/Loss
+CA-2024-10679,West,Office Supplies,23.84,0.3,-7.86,Second Class,Standard/Loss
+CA-2024-10680,North,Office Supplies,247.9,0.3,7.86,Second Class,Standard/Loss
+CA-2024-10681,West,Furniture,114.64,0.0,42.63,Standard Class,Standard/Loss
+CA-2024-10682,West,Furniture,343.14,0.2,26.95,Standard Class,Standard/Loss
+CA-2024-10683,South,Office Supplies,73.89,0.3,18.36,First Class,Standard/Loss
+CA-2024-10684,East,Furniture,163.51,0.2,22.75,Second Class,Standard/Loss
+CA-2024-10685,Central,Furniture,71.78,0.2,-23.13,Same Day,Standard/Loss
+CA-2024-10686,South,Office Supplies,100.95,0.3,9.94,Standard Class,Standard/Loss
+CA-2024-10687,South,Technology,200.62,0.1,62.91,Standard Class,High Profit
+CA-2024-10688,South,Furniture,95.01,0.4,-11.25,First Class,Standard/Loss
+CA-2024-10689,North,Technology,219.32,0.0,73.17,Second Class,High Profit
+CA-2024-10690,North,Technology,447.45,0.2,89.01,Same Day,High Profit
+CA-2024-10691,West,Furniture,393.76,0.0,123.52,First Class,High Profit
+CA-2024-10692,Central,Furniture,294.77,0.0,122.2,Standard Class,High Profit
+CA-2024-10693,South,Office Supplies,74.06,0.3,19.16,First Class,Standard/Loss
+CA-2024-10694,West,Furniture,310.48,0.0,110.57,Standard Class,High Profit
+CA-2024-10695,South,Furniture,156.08,0.0,78.37,Second Class,High Profit
+CA-2024-10696,West,Furniture,23.63,0.0,3.31,Same Day,Standard/Loss
+CA-2024-10697,West,Office Supplies,522.68,0.4,-18.81,Same Day,Standard/Loss
+CA-2024-10698,South,Technology,48.09,0.4,14.59,Second Class,Standard/Loss
+CA-2024-10699,South,Furniture,84.08,0.2,43.8,Standard Class,Standard/Loss
+CA-2024-10700,South,Office Supplies,168.35,0.0,51.66,Same Day,High Profit
+CA-2024-10701,East,Technology,74.46,0.0,37.04,Same Day,Standard/Loss
+CA-2024-10702,West,Technology,253.01,0.1,58.39,Standard Class,High Profit
+CA-2024-10703,North,Furniture,294.94,0.1,75.62,First Class,High Profit
+CA-2024-10704,East,Furniture,23.19,0.2,-2.12,Same Day,Standard/Loss
+CA-2024-10705,South,Technology,30.91,0.4,6.72,Second Class,Standard/Loss
+CA-2024-10706,East,Furniture,110.08,0.0,22.92,Second Class,Standard/Loss
+CA-2024-10707,West,Technology,212.96,0.1,45.26,Second Class,Standard/Loss
+CA-2024-10708,Central,Technology,410.63,0.2,78.75,First Class,High Profit
+CA-2024-10709,West,Furniture,287.75,0.3,21.66,Same Day,Standard/Loss
+CA-2024-10710,North,Technology,79.96,0.3,2.52,Standard Class,Standard/Loss
+CA-2024-10711,North,Technology,68.89,0.4,2.47,Second Class,Standard/Loss
+CA-2024-10712,Central,Office Supplies,222.8,0.0,69.64,Standard Class,High Profit
+CA-2024-10713,West,Furniture,36.52,0.1,26.78,First Class,Standard/Loss
+CA-2024-10714,East,Furniture,277.19,0.0,81.28,Standard Class,High Profit
+CA-2024-10715,Central,Technology,33.94,0.2,7.52,Second Class,Standard/Loss
+CA-2024-10716,West,Furniture,406.1,0.0,151.48,First Class,High Profit
+CA-2024-10717,West,Technology,499.38,0.0,155.9,Standard Class,High Profit
+CA-2024-10718,North,Technology,151.94,0.1,30.29,First Class,Standard/Loss
+CA-2024-10719,East,Technology,62.86,0.0,25.72,First Class,Standard/Loss
+CA-2024-10720,Central,Office Supplies,136.11,0.0,49.36,Second Class,Standard/Loss
+CA-2024-10721,North,Furniture,362.86,0.0,123.96,First Class,High Profit
+CA-2024-10722,North,Furniture,34.21,0.3,-24.43,First Class,Standard/Loss
+CA-2024-10723,West,Technology,299.36,0.1,71.22,Standard Class,High Profit
+CA-2024-10724,Central,Furniture,105.16,0.4,9.5,First Class,Standard/Loss
+CA-2024-10725,West,Furniture,857.74,0.0,319.32,First Class,High Profit
+CA-2024-10726,South,Office Supplies,316.04,0.3,3.06,Standard Class,Standard/Loss
+CA-2024-10727,South,Furniture,334.17,0.1,94.21,Second Class,High Profit
+CA-2024-10728,West,Office Supplies,99.34,0.2,12.66,First Class,Standard/Loss
+CA-2024-10729,Central,Furniture,200.3,0.1,57.05,First Class,High Profit
+CA-2024-10730,South,Office Supplies,99.78,0.2,9.91,Same Day,Standard/Loss
+CA-2024-10731,East,Office Supplies,20.14,0.3,-8.96,Second Class,Standard/Loss
+CA-2024-10732,East,Office Supplies,142.2,0.3,17.7,Standard Class,Standard/Loss
+CA-2024-10733,West,Technology,189.42,0.4,-14.13,Same Day,Standard/Loss
+CA-2024-10734,West,Technology,123.2,0.0,40.44,Standard Class,Standard/Loss
+CA-2024-10735,West,Office Supplies,478.95,0.2,72.65,Same Day,High Profit
+CA-2024-10736,North,Technology,60.43,0.0,1.29,First Class,Standard/Loss
+CA-2024-10737,East,Furniture,29.97,0.3,-9.95,Second Class,Standard/Loss
+CA-2024-10738,West,Office Supplies,151.49,0.3,12.03,Second Class,Standard/Loss
+CA-2024-10739,Central,Office Supplies,745.27,0.3,49.83,Same Day,Standard/Loss
+CA-2024-10740,South,Furniture,80.4,0.0,51.98,Standard Class,High Profit
+CA-2024-10741,South,Furniture,127.77,0.0,46.29,First Class,Standard/Loss
+CA-2024-10742,North,Technology,600.49,0.0,214.33,Second Class,High Profit
+CA-2024-10743,Central,Furniture,256.8,0.1,32.18,Second Class,Standard/Loss
+CA-2024-10744,North,Technology,373.34,0.0,136.53,Second Class,High Profit
+CA-2024-10745,South,Furniture,248.75,0.1,41.45,First Class,Standard/Loss
+CA-2024-10746,South,Office Supplies,644.31,0.1,162.5,Second Class,High Profit
+CA-2024-10747,West,Office Supplies,102.77,0.3,12.35,Standard Class,Standard/Loss
+CA-2024-10748,Central,Furniture,286.5,0.3,18.33,Same Day,Standard/Loss
+CA-2024-10749,East,Technology,209.51,0.0,85.31,First Class,High Profit
+CA-2024-10750,East,Furniture,187.36,0.0,56.89,Second Class,High Profit
+CA-2024-10751,South,Furniture,54.1,0.2,-14.6,Standard Class,Standard/Loss
+CA-2024-10752,North,Technology,129.72,0.4,-2.0,First Class,Standard/Loss
+CA-2024-10753,South,Office Supplies,154.39,0.1,37.87,First Class,Standard/Loss
+CA-2024-10754,North,Furniture,49.99,0.1,1.39,Second Class,Standard/Loss
+CA-2024-10755,South,Technology,24.38,0.1,3.57,Second Class,Standard/Loss
+CA-2024-10756,North,Technology,413.91,0.0,153.38,Second Class,High Profit
+CA-2024-10757,West,Furniture,76.34,0.0,49.18,Same Day,Standard/Loss
+CA-2024-10758,North,Furniture,54.12,0.0,13.05,First Class,Standard/Loss
+CA-2024-10759,West,Furniture,42.73,0.3,-7.6,First Class,Standard/Loss
+CA-2024-10760,East,Technology,107.63,0.3,-2.98,Second Class,Standard/Loss
+CA-2024-10761,South,Furniture,457.32,0.2,72.32,Same Day,High Profit
+CA-2024-10762,North,Furniture,152.54,0.2,9.63,Same Day,Standard/Loss
+CA-2024-10763,East,Office Supplies,106.06,0.1,28.98,Standard Class,Standard/Loss
+CA-2024-10764,Central,Furniture,96.72,0.5,-19.97,Same Day,Standard/Loss
+CA-2024-10765,West,Technology,108.81,0.2,13.74,Second Class,Standard/Loss
+CA-2024-10766,East,Technology,260.42,0.5,-57.15,Standard Class,Standard/Loss
+CA-2024-10767,South,Furniture,167.97,0.0,54.79,Second Class,High Profit
+CA-2024-10768,West,Furniture,359.34,0.2,30.99,First Class,Standard/Loss
+CA-2024-10769,Central,Furniture,78.03,0.1,23.62,Same Day,Standard/Loss
+CA-2024-10770,North,Technology,242.18,0.2,43.88,Second Class,Standard/Loss
+CA-2024-10771,South,Technology,200.11,0.3,40.8,First Class,Standard/Loss
+CA-2024-10772,Central,Furniture,124.46,0.5,-31.29,First Class,Standard/Loss
+CA-2024-10773,Central,Furniture,24.37,0.3,14.06,First Class,Standard/Loss
+CA-2024-10774,Central,Furniture,246.09,0.3,2.34,Same Day,Standard/Loss
+CA-2024-10775,South,Furniture,729.64,0.2,113.97,First Class,High Profit
+CA-2024-10776,Central,Furniture,337.97,0.2,53.67,Same Day,High Profit
+CA-2024-10777,South,Furniture,439.33,0.2,90.09,Same Day,High Profit
+CA-2024-10778,Central,Technology,280.63,0.4,-36.45,Same Day,Standard/Loss
+CA-2024-10779,Central,Office Supplies,425.5,0.0,127.03,First Class,High Profit
+CA-2024-10780,East,Technology,455.99,0.5,-47.83,Standard Class,Standard/Loss
+CA-2024-10781,North,Furniture,168.84,0.2,36.15,Same Day,Standard/Loss
+CA-2024-10782,North,Office Supplies,363.05,0.1,88.11,Same Day,High Profit
+CA-2024-10783,Central,Technology,208.02,0.5,-15.48,Second Class,Standard/Loss
+CA-2024-10784,Central,Furniture,96.02,0.1,38.48,Same Day,Standard/Loss
+CA-2024-10785,South,Furniture,164.5,0.1,59.55,Standard Class,High Profit
+CA-2024-10786,Central,Furniture,208.14,0.2,42.42,Standard Class,Standard/Loss
+CA-2024-10787,West,Office Supplies,59.4,0.0,43.82,Same Day,Standard/Loss
+CA-2024-10788,North,Technology,51.8,0.0,15.08,Same Day,Standard/Loss
+CA-2024-10789,West,Office Supplies,417.59,0.1,109.88,Same Day,High Profit
+CA-2024-10790,South,Technology,315.43,0.2,62.57,Standard Class,High Profit
+CA-2024-10791,Central,Office Supplies,64.73,0.0,43.59,Standard Class,Standard/Loss
+CA-2024-10792,South,Technology,68.93,0.1,7.93,First Class,Standard/Loss
+CA-2024-10793,South,Technology,203.32,0.2,41.02,Same Day,Standard/Loss
+CA-2024-10794,South,Technology,94.19,0.5,-23.65,First Class,Standard/Loss
+CA-2024-10795,West,Furniture,173.42,0.1,18.23,Same Day,Standard/Loss
+CA-2024-10796,Central,Office Supplies,201.11,0.0,82.2,Second Class,High Profit
+CA-2024-10797,East,Office Supplies,46.07,0.4,-7.85,Same Day,Standard/Loss
+CA-2024-10798,East,Furniture,188.22,0.2,17.4,First Class,Standard/Loss
+CA-2024-10799,East,Office Supplies,410.61,0.4,-20.66,First Class,Standard/Loss
+CA-2024-10800,South,Furniture,142.64,0.0,63.29,Same Day,High Profit
+CA-2024-10801,West,Technology,334.58,0.0,116.05,First Class,High Profit
+CA-2024-10802,North,Technology,107.29,0.1,37.57,Same Day,Standard/Loss
+CA-2024-10803,North,Furniture,161.74,0.1,43.35,Second Class,Standard/Loss
+CA-2024-10804,South,Office Supplies,260.09,0.4,-15.48,Standard Class,Standard/Loss
+CA-2024-10805,East,Office Supplies,414.86,0.0,138.13,First Class,High Profit
+CA-2024-10806,North,Technology,207.93,0.5,-47.31,Standard Class,Standard/Loss
+CA-2024-10807,Central,Furniture,271.71,0.1,79.04,First Class,High Profit
+CA-2024-10808,Central,Technology,529.97,0.1,149.91,First Class,High Profit
+CA-2024-10809,East,Technology,62.2,0.1,20.01,First Class,Standard/Loss
+CA-2024-10810,Central,Office Supplies,73.27,0.2,-2.41,Standard Class,Standard/Loss
+CA-2024-10811,North,Technology,1088.85,0.0,384.22,Same Day,High Profit
+CA-2024-10812,East,Technology,273.77,0.3,-9.15,Standard Class,Standard/Loss
+CA-2024-10813,East,Furniture,41.54,0.0,18.2,Standard Class,Standard/Loss
+CA-2024-10814,North,Furniture,207.19,0.2,19.6,First Class,Standard/Loss
+CA-2024-10815,Central,Furniture,378.82,0.4,1.44,Same Day,Standard/Loss
+CA-2024-10816,Central,Technology,854.48,0.3,34.05,Same Day,Standard/Loss
+CA-2024-10817,East,Office Supplies,48.58,0.3,7.23,First Class,Standard/Loss
+CA-2024-10818,West,Furniture,36.19,0.4,11.1,Standard Class,Standard/Loss
+CA-2024-10819,East,Office Supplies,50.94,0.4,2.57,Same Day,Standard/Loss
+CA-2024-10820,Central,Technology,179.02,0.3,7.84,Standard Class,Standard/Loss
+CA-2024-10821,North,Office Supplies,58.8,0.0,28.66,First Class,Standard/Loss
+CA-2024-10822,Central,Office Supplies,89.59,0.3,10.41,Same Day,Standard/Loss
+CA-2024-10823,East,Office Supplies,81.36,0.1,25.78,Standard Class,Standard/Loss
+CA-2024-10824,Central,Furniture,36.14,0.3,7.9,Same Day,Standard/Loss
+CA-2024-10825,West,Technology,242.47,0.1,56.78,Standard Class,High Profit
+CA-2024-10826,South,Furniture,385.59,0.0,117.69,First Class,High Profit
+CA-2024-10827,West,Furniture,219.41,0.1,68.68,Second Class,High Profit
+CA-2024-10828,East,Office Supplies,358.06,0.3,28.8,Same Day,Standard/Loss
+CA-2024-10829,Central,Technology,150.31,0.0,54.27,Second Class,High Profit
+CA-2024-10830,North,Office Supplies,41.95,0.1,3.72,First Class,Standard/Loss
+CA-2024-10831,West,Furniture,250.83,0.0,86.87,Standard Class,High Profit
+CA-2024-10832,Central,Office Supplies,50.55,0.2,8.28,Standard Class,Standard/Loss
+CA-2024-10833,West,Furniture,391.78,0.3,4.97,Same Day,Standard/Loss
+CA-2024-10834,East,Technology,387.26,0.0,144.0,Same Day,High Profit
+CA-2024-10835,West,Office Supplies,136.46,0.5,-3.07,First Class,Standard/Loss
+CA-2024-10836,Central,Furniture,37.78,0.2,-4.54,Second Class,Standard/Loss
+CA-2024-10837,West,Furniture,90.74,0.1,1.81,Same Day,Standard/Loss
+CA-2024-10838,Central,Furniture,34.49,0.1,15.21,Same Day,Standard/Loss
+CA-2024-10839,South,Technology,70.94,0.2,11.53,Second Class,Standard/Loss
+CA-2024-10840,Central,Office Supplies,68.83,0.0,25.96,Same Day,Standard/Loss
+CA-2024-10841,East,Technology,581.65,0.4,-43.07,Same Day,Standard/Loss
+CA-2024-10842,Central,Office Supplies,187.63,0.2,50.23,First Class,High Profit
+CA-2024-10843,West,Technology,163.0,0.4,6.4,Second Class,Standard/Loss
+CA-2024-10844,East,Technology,256.77,0.0,93.58,First Class,High Profit
+CA-2024-10845,North,Office Supplies,270.4,0.1,63.68,Standard Class,High Profit
+CA-2024-10846,Central,Technology,204.68,0.0,60.0,Same Day,High Profit
+CA-2024-10847,West,Furniture,127.36,0.0,65.47,Same Day,High Profit
+CA-2024-10848,Central,Furniture,31.9,0.0,15.61,Second Class,Standard/Loss
+CA-2024-10849,North,Office Supplies,274.6,0.4,-9.17,Same Day,Standard/Loss
+CA-2024-10850,Central,Technology,250.64,0.5,-36.83,Second Class,Standard/Loss
+CA-2024-10851,North,Office Supplies,251.15,0.1,52.43,Same Day,High Profit
+CA-2024-10852,South,Office Supplies,701.59,0.0,232.24,First Class,High Profit
+CA-2024-10853,North,Technology,513.46,0.0,183.95,Standard Class,High Profit
+CA-2024-10854,North,Office Supplies,242.69,0.1,79.41,Standard Class,High Profit
+CA-2024-10855,East,Furniture,459.34,0.3,-0.44,First Class,Standard/Loss
+CA-2024-10856,East,Technology,350.12,0.1,117.9,Standard Class,High Profit
+CA-2024-10857,South,Office Supplies,26.67,0.2,23.05,First Class,Standard/Loss
+CA-2024-10858,Central,Technology,182.25,0.4,-21.3,Same Day,Standard/Loss
+CA-2024-10859,North,Office Supplies,84.76,0.4,-24.38,First Class,Standard/Loss
+CA-2024-10860,Central,Office Supplies,55.36,0.0,9.62,Second Class,Standard/Loss
+CA-2024-10861,West,Office Supplies,358.72,0.0,108.36,First Class,High Profit
+CA-2024-10862,Central,Furniture,48.46,0.1,16.75,First Class,Standard/Loss
+CA-2024-10863,East,Office Supplies,277.59,0.2,31.46,First Class,Standard/Loss
+CA-2024-10864,South,Furniture,49.42,0.5,-3.98,Second Class,Standard/Loss
+CA-2024-10865,North,Office Supplies,444.02,0.4,-26.04,Same Day,Standard/Loss
+CA-2024-10866,Central,Furniture,131.04,0.1,18.56,Standard Class,Standard/Loss
+CA-2024-10867,West,Technology,199.91,0.5,-15.56,First Class,Standard/Loss
+CA-2024-10868,Central,Office Supplies,96.13,0.0,16.37,Same Day,Standard/Loss
+CA-2024-10869,North,Furniture,111.29,0.3,2.75,Second Class,Standard/Loss
+CA-2024-10870,West,Furniture,50.44,0.2,-15.97,Standard Class,Standard/Loss
+CA-2024-10871,Central,Furniture,187.34,0.5,-3.45,First Class,Standard/Loss
+CA-2024-10872,East,Furniture,101.38,0.0,30.85,Standard Class,Standard/Loss
+CA-2024-10873,West,Furniture,42.33,0.2,14.01,Second Class,Standard/Loss
+CA-2024-10874,North,Office Supplies,259.31,0.1,54.7,Standard Class,High Profit
+CA-2024-10875,South,Technology,234.55,0.5,-14.5,Second Class,Standard/Loss
+CA-2024-10876,East,Office Supplies,151.15,0.0,53.55,Second Class,High Profit
+CA-2024-10877,West,Office Supplies,157.01,0.1,41.68,Standard Class,Standard/Loss
+CA-2024-10878,North,Office Supplies,151.02,0.0,64.29,Same Day,High Profit
+CA-2024-10879,West,Furniture,805.85,0.0,279.51,Standard Class,High Profit
+CA-2024-10880,Central,Technology,59.08,0.3,-5.18,First Class,Standard/Loss
+CA-2024-10881,Central,Furniture,98.09,0.2,30.6,First Class,Standard/Loss
+CA-2024-10882,East,Technology,118.44,0.0,33.38,First Class,Standard/Loss
+CA-2024-10883,North,Furniture,124.07,0.0,43.66,Standard Class,Standard/Loss
+CA-2024-10884,West,Furniture,1087.18,0.1,287.74,Standard Class,High Profit
+CA-2024-10885,West,Furniture,224.12,0.0,69.58,First Class,High Profit
+CA-2024-10886,West,Office Supplies,242.35,0.2,43.69,First Class,Standard/Loss
+CA-2024-10887,East,Technology,20.47,0.0,12.17,Second Class,Standard/Loss
+CA-2024-10888,South,Furniture,222.58,0.1,56.56,Standard Class,High Profit
+CA-2024-10889,East,Furniture,257.74,0.4,-6.01,Same Day,Standard/Loss
+CA-2024-10890,Central,Office Supplies,79.65,0.2,-13.07,First Class,Standard/Loss
+CA-2024-10891,North,Furniture,262.64,0.0,98.43,First Class,High Profit
+CA-2024-10892,Central,Office Supplies,140.54,0.0,27.67,Second Class,Standard/Loss
+CA-2024-10893,Central,Office Supplies,87.76,0.2,19.78,Standard Class,Standard/Loss
+CA-2024-10894,East,Furniture,53.12,0.1,3.38,Second Class,Standard/Loss
+CA-2024-10895,Central,Furniture,43.73,0.0,-7.61,Standard Class,Standard/Loss
+CA-2024-10896,West,Furniture,231.69,0.0,91.97,Standard Class,High Profit
+CA-2024-10897,North,Office Supplies,104.58,0.0,36.3,Second Class,Standard/Loss
+CA-2024-10898,West,Office Supplies,592.66,0.4,-37.17,Second Class,Standard/Loss
+CA-2024-10899,South,Furniture,236.6,0.1,86.56,Standard Class,High Profit
+CA-2024-10900,North,Technology,146.48,0.2,16.41,Standard Class,Standard/Loss
+CA-2024-10901,West,Technology,566.98,0.0,195.34,Second Class,High Profit
+CA-2024-10902,West,Technology,121.36,0.0,39.16,First Class,Standard/Loss
+CA-2024-10903,East,Office Supplies,269.98,0.5,-59.03,Same Day,Standard/Loss
+CA-2024-10904,East,Furniture,310.17,0.1,69.24,Same Day,High Profit
+CA-2024-10905,East,Technology,298.37,0.4,-2.69,First Class,Standard/Loss
+CA-2024-10906,East,Technology,181.75,0.0,75.34,Same Day,High Profit
+CA-2024-10907,East,Office Supplies,365.1,0.3,17.35,Second Class,Standard/Loss
+CA-2024-10908,East,Furniture,378.3,0.0,107.31,Standard Class,High Profit
+CA-2024-10909,East,Office Supplies,39.23,0.1,-6.34,Standard Class,Standard/Loss
+CA-2024-10910,North,Furniture,307.13,0.0,108.7,Second Class,High Profit
+CA-2024-10911,Central,Furniture,394.88,0.3,28.36,Standard Class,Standard/Loss
+CA-2024-10912,South,Furniture,232.37,0.4,13.46,Same Day,Standard/Loss
+CA-2024-10913,South,Office Supplies,506.47,0.0,186.16,Standard Class,High Profit
+CA-2024-10914,Central,Technology,364.95,0.3,38.14,First Class,Standard/Loss
+CA-2024-10915,East,Office Supplies,221.67,0.5,-25.16,Second Class,Standard/Loss
+CA-2024-10916,Central,Technology,177.34,0.2,57.83,First Class,High Profit
+CA-2024-10917,South,Technology,575.44,0.1,150.61,Same Day,High Profit
+CA-2024-10918,Central,Technology,429.09,0.1,95.71,Same Day,High Profit
+CA-2024-10919,East,Office Supplies,276.53,0.0,73.2,First Class,High Profit
+CA-2024-10920,Central,Furniture,388.04,0.0,136.94,Second Class,High Profit
+CA-2024-10921,North,Office Supplies,746.67,0.0,258.54,First Class,High Profit
+CA-2024-10922,South,Office Supplies,148.77,0.0,54.08,Standard Class,High Profit
+CA-2024-10923,South,Office Supplies,50.44,0.0,4.63,First Class,Standard/Loss
+CA-2024-10924,West,Technology,406.55,0.1,140.4,Second Class,High Profit
+CA-2024-10925,South,Furniture,298.22,0.1,43.93,First Class,Standard/Loss
+CA-2024-10926,East,Office Supplies,483.53,0.0,166.18,Same Day,High Profit
+CA-2024-10927,North,Furniture,181.0,0.3,-5.7,Second Class,Standard/Loss
+CA-2024-10928,West,Technology,473.03,0.2,102.52,Same Day,High Profit
+CA-2024-10929,West,Office Supplies,179.53,0.1,43.91,Standard Class,Standard/Loss
+CA-2024-10930,North,Technology,208.12,0.2,22.01,Same Day,Standard/Loss
+CA-2024-10931,South,Technology,263.57,0.3,5.11,Second Class,Standard/Loss
+CA-2024-10932,North,Office Supplies,81.86,0.0,25.46,Second Class,Standard/Loss
+CA-2024-10933,Central,Furniture,337.69,0.1,102.33,First Class,High Profit
+CA-2024-10934,West,Furniture,100.07,0.0,36.22,Same Day,Standard/Loss
+CA-2024-10935,East,Technology,22.99,0.5,15.66,Standard Class,Standard/Loss
+CA-2024-10936,North,Furniture,243.65,0.5,-37.96,Standard Class,Standard/Loss
+CA-2024-10937,North,Office Supplies,255.72,0.0,69.93,Same Day,High Profit
+CA-2024-10938,East,Technology,72.41,0.4,-5.01,First Class,Standard/Loss
+CA-2024-10939,South,Office Supplies,157.88,0.0,66.41,Second Class,High Profit
+CA-2024-10940,South,Furniture,225.9,0.0,54.1,First Class,High Profit
+CA-2024-10941,East,Office Supplies,213.62,0.2,18.25,Same Day,Standard/Loss
+CA-2024-10942,East,Office Supplies,601.63,0.1,164.95,Same Day,High Profit
+CA-2024-10943,Central,Furniture,424.54,0.0,149.46,First Class,High Profit
+CA-2024-10944,South,Furniture,205.12,0.0,60.34,First Class,High Profit
+CA-2024-10945,North,Office Supplies,111.23,0.1,37.48,Standard Class,Standard/Loss
+CA-2024-10946,South,Furniture,746.9,0.4,-50.67,Standard Class,Standard/Loss
+CA-2024-10947,South,Furniture,113.14,0.3,-4.87,Standard Class,Standard/Loss
+CA-2024-10948,South,Furniture,396.93,0.1,114.04,Standard Class,High Profit
+CA-2024-10949,South,Technology,86.38,0.1,36.43,Second Class,Standard/Loss
+CA-2024-10950,Central,Technology,180.92,0.0,99.34,Standard Class,High Profit
+CA-2024-10951,South,Technology,276.07,0.0,107.89,Second Class,High Profit
+CA-2024-10952,North,Furniture,535.68,0.2,68.25,Second Class,High Profit
+CA-2024-10953,West,Furniture,88.74,0.2,11.03,Standard Class,Standard/Loss
+CA-2024-10954,Central,Furniture,613.87,0.1,158.29,First Class,High Profit
+CA-2024-10955,South,Technology,263.75,0.0,89.48,Second Class,High Profit
+CA-2024-10956,West,Office Supplies,213.62,0.0,75.77,First Class,High Profit
+CA-2024-10957,South,Office Supplies,64.81,0.0,11.44,Second Class,Standard/Loss
+CA-2024-10958,East,Office Supplies,191.07,0.0,75.96,First Class,High Profit
+CA-2024-10959,North,Furniture,372.08,0.3,17.35,First Class,Standard/Loss
+CA-2024-10960,Central,Office Supplies,686.02,0.0,239.65,Standard Class,High Profit
+CA-2024-10961,North,Technology,438.41,0.1,100.64,Standard Class,High Profit
+CA-2024-10962,West,Office Supplies,614.87,0.2,99.46,Same Day,High Profit
+CA-2024-10963,West,Furniture,119.85,0.0,55.34,First Class,High Profit
+CA-2024-10964,South,Office Supplies,56.26,0.1,-30.83,First Class,Standard/Loss
+CA-2024-10965,East,Furniture,341.84,0.0,99.84,Second Class,High Profit
+CA-2024-10966,North,Office Supplies,657.22,0.0,239.11,Standard Class,High Profit
+CA-2024-10967,West,Technology,934.62,0.4,-70.04,Same Day,Standard/Loss
+CA-2024-10968,South,Technology,56.82,0.3,8.72,Second Class,Standard/Loss
+CA-2024-10969,South,Office Supplies,182.82,0.2,37.01,Same Day,Standard/Loss
+CA-2024-10970,South,Office Supplies,656.88,0.2,120.0,Second Class,High Profit
+CA-2024-10971,West,Office Supplies,27.57,0.0,9.09,Same Day,Standard/Loss
+CA-2024-10972,Central,Furniture,503.13,0.2,84.28,First Class,High Profit
+CA-2024-10973,East,Office Supplies,219.68,0.2,25.29,First Class,Standard/Loss
+CA-2024-10974,North,Technology,118.41,0.0,51.91,First Class,High Profit
+CA-2024-10975,South,Technology,146.23,0.0,61.37,Same Day,High Profit
+CA-2024-10976,South,Technology,134.03,0.1,55.91,Same Day,High Profit
+CA-2024-10977,East,Office Supplies,125.98,0.0,28.3,Standard Class,Standard/Loss
+CA-2024-10978,East,Office Supplies,127.74,0.0,43.88,Standard Class,Standard/Loss
+CA-2024-10979,East,Office Supplies,379.95,0.1,119.36,First Class,High Profit
+CA-2024-10980,South,Office Supplies,270.25,0.1,67.39,Same Day,High Profit
+CA-2024-10981,North,Technology,62.05,0.4,8.52,First Class,Standard/Loss
+CA-2024-10982,West,Technology,34.72,0.0,28.79,First Class,Standard/Loss
+CA-2024-10983,Central,Furniture,46.62,0.0,12.39,Standard Class,Standard/Loss
+CA-2024-10984,South,Office Supplies,318.24,0.2,47.66,First Class,Standard/Loss
+CA-2024-10985,South,Office Supplies,451.42,0.2,60.84,Standard Class,High Profit
+CA-2024-10986,South,Furniture,57.54,0.0,16.36,Second Class,Standard/Loss
+CA-2024-10987,North,Office Supplies,128.31,0.3,-18.32,First Class,Standard/Loss
+CA-2024-10988,North,Furniture,138.0,0.0,63.14,Second Class,High Profit
+CA-2024-10989,Central,Technology,415.71,0.3,5.71,Same Day,Standard/Loss
+CA-2024-10990,West,Office Supplies,73.49,0.1,10.56,Second Class,Standard/Loss
+CA-2024-10991,West,Furniture,58.87,0.2,10.43,First Class,Standard/Loss
+CA-2024-10992,South,Technology,1126.79,0.0,365.15,First Class,High Profit
+CA-2024-10993,East,Technology,557.27,0.1,120.68,First Class,High Profit
+CA-2024-10994,North,Office Supplies,240.63,0.1,47.97,Second Class,Standard/Loss
+CA-2024-10995,Central,Furniture,84.64,0.2,25.78,First Class,Standard/Loss
+CA-2024-10996,South,Office Supplies,241.34,0.2,40.23,Same Day,Standard/Loss
+CA-2024-10997,North,Technology,271.88,0.1,70.78,First Class,High Profit
+CA-2024-10998,Central,Office Supplies,241.45,0.1,50.54,First Class,High Profit
+CA-2024-10999,South,Office Supplies,885.09,0.1,191.17,First Class,High Profit

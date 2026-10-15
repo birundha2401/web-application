@@ -19,15 +19,16 @@ public class UserRepositoryTest {
         testSaveValidUser(repo);
         testDuplicateEmailThrowsException(repo);
         
+        testGetUserByEmail(repo);
+        testUserNotFound(repo);
+        
         System.out.println("--- UserRepositoryTest Completed ---");
     }
 
     private static void testSaveValidUser(UserRepository repo) throws Exception {
         User user = new User("Test Name", "1234567890", "test1@example.com", "plainpassword");
         boolean success = repo.saveUser(user);
-        if (!success) {
-            throw new RuntimeException("FAILED: Expected user to be saved successfully.");
-        }
+        if (!success) throw new RuntimeException("FAILED: Expected user to be saved successfully.");
         System.out.println("[PASS] Valid user saved successfully.");
     }
 
@@ -46,5 +47,22 @@ public class UserRepositoryTest {
                 throw new RuntimeException("FAILED: Unexpected exception: " + e.getMessage());
             }
         }
+    }
+
+    private static void testGetUserByEmail(UserRepository repo) throws Exception {
+        // Notice it uses getUserByEmail, not testGetUserByEmail
+        User user = repo.getUserByEmail("test1@example.com");
+        if (user == null || !user.getName().equals("Test Name")) {
+            throw new RuntimeException("FAILED: Expected to retrieve existing user 'Test Name'.");
+        }
+        System.out.println("[PASS] Retrieved existing user by email.");
+    }
+
+    private static void testUserNotFound(UserRepository repo) throws Exception {
+        User user = repo.getUserByEmail("doesnotexist@example.com");
+        if (user != null) {
+            throw new RuntimeException("FAILED: Expected null for non-existent user.");
+        }
+        System.out.println("[PASS] Correctly returned null for missing user.");
     }
 }

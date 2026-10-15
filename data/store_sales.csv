@@ -1,0 +1,21 @@
+transaction_id,month,department,units_sold,revenue,rating
+101,Month 1,Footwear,463,18890,3.6
+102,Month 2,Beauty & Health,171,56606,4.2
+103,Month 3,Home & Kitchen,402,95038,3.3
+104,Month 4,Beauty & Health,897,25627,4.6
+105,Month 5,Beauty & Health,710,23792,4.0
+106,Month 6,Apparel,624,88969,3.9
+107,Month 7,Home & Kitchen,208,58001,4.8
+108,Month 8,Home & Kitchen,660,91552,4.4
+109,Month 9,Home & Kitchen,831,38897,3.8
+110,Month 10,Beauty & Health,625,83148,4.2
+111,Month 11,Footwear,849,38483,4.1
+112,Month 12,Home & Kitchen,932,63555,4.8
+113,Month 13,Beauty & Health,339,32159,4.6
+114,Month 14,Apparel,836,95077,4.5
+115,Month 15,Footwear,712,50920,4.1
+116,Month 16,Apparel,716,82121,4.2
+117,Month 17,Footwear,393,84479,4.8
+118,Month 18,Beauty & Health,654,34457,4.2
+119,Month 19,Electronics,280,81557,3.7
+120,Month 20,Footwear,634,92189,3.7

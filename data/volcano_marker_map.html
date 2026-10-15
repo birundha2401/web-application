@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c11334df73d8f5557a0f065172229af6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c11334df73d8f5557a0f065172229af6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c11334df73d8f5557a0f065172229af6 = L.map(
+                "map_c11334df73d8f5557a0f065172229af6",
+                {
+                    center: [20.0, 10.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e8238756f2288461d71acf76fbea7acf = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_e8238756f2288461d71acf76fbea7acf.addTo(map_c11334df73d8f5557a0f065172229af6);
+        
+    
+            var circle_marker_24fd0ceee9b058742274c4805e7c2806 = L.circleMarker(
+                [63.63, -19.62],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_c11334df73d8f5557a0f065172229af6);
+        
+    
+        var popup_0a59d15d9cc1e017325593503f4a4642 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f132fecd8fbfd9e477ee9415ee83dc56 = $(`<div id="html_f132fecd8fbfd9e477ee9415ee83dc56" style="width: 100.0%; height: 100.0%;"><b>Eyjafjallajökull</b><br>Elevation: 1666 m<br>Country: Iceland</div>`)[0];
+                popup_0a59d15d9cc1e017325593503f4a4642.setContent(html_f132fecd8fbfd9e477ee9415ee83dc56);
+            
+        
+
+        circle_marker_24fd0ceee9b058742274c4805e7c2806.bindPopup(popup_0a59d15d9cc1e017325593503f4a4642)
+        ;
+
+        
+    
+    
+            circle_marker_24fd0ceee9b058742274c4805e7c2806.bindTooltip(
+                `<div>
+                     Eyjafjallajökull
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2917775c32dd30137dc63779d7bbced2 = L.circleMarker(
+                [35.36, 138.73],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_c11334df73d8f5557a0f065172229af6);
+        
+    
+        var popup_7cec90a821a33bdd022821546b01b4b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc3f6f27b8c2485a46dc675526f87f3a = $(`<div id="html_bc3f6f27b8c2485a46dc675526f87f3a" style="width: 100.0%; height: 100.0%;"><b>Mount Fuji</b><br>Elevation: 3776 m<br>Country: Japan</div>`)[0];
+                popup_7cec90a821a33bdd022821546b01b4b3.setContent(html_bc3f6f27b8c2485a46dc675526f87f3a);
+            
+        
+
+        circle_marker_2917775c32dd30137dc63779d7bbced2.bindPopup(popup_7cec90a821a33bdd022821546b01b4b3)
+        ;
+
+        
+    
+    
+            circle_marker_2917775c32dd30137dc63779d7bbced2.bindTooltip(
+                `<div>
+                     Mount Fuji
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8573ba64e7705b2e36a4fa5e1faf00cb = L.circleMarker(
+                [40.82, 14.43],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_c11334df73d8f5557a0f065172229af6);
+        
+    
+        var popup_ec7536770409a27ab28d9d31c726f53e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_49cc775955c9ba0b0e3fda38117d0938 = $(`<div id="html_49cc775955c9ba0b0e3fda38117d0938" style="width: 100.0%; height: 100.0%;"><b>Mount Vesuvius</b><br>Elevation: 1281 m<br>Country: Italy</div>`)[0];
+                popup_ec7536770409a27ab28d9d31c726f53e.setContent(html_49cc775955c9ba0b0e3fda38117d0938);
+            
+        
+
+        circle_marker_8573ba64e7705b2e36a4fa5e1faf00cb.bindPopup(popup_ec7536770409a27ab28d9d31c726f53e)
+        ;
+
+        
+    
+    
+            circle_marker_8573ba64e7705b2e36a4fa5e1faf00cb.bindTooltip(
+                `<div>
+                     Mount Vesuvius
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_338fa05f1a20a806d88bd1e79d742938 = L.circleMarker(
+                [-6.1, 105.42],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_c11334df73d8f5557a0f065172229af6);
+        
+    
+        var popup_2e603fd34d6a0e6969b41d9fab17caef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_afb596705619a37807941114f4c69de9 = $(`<div id="html_afb596705619a37807941114f4c69de9" style="width: 100.0%; height: 100.0%;"><b>Krakatoa</b><br>Elevation: 813 m<br>Country: Indonesia</div>`)[0];
+                popup_2e603fd34d6a0e6969b41d9fab17caef.setContent(html_afb596705619a37807941114f4c69de9);
+            
+        
+
+        circle_marker_338fa05f1a20a806d88bd1e79d742938.bindPopup(popup_2e603fd34d6a0e6969b41d9fab17caef)
+        ;
+
+        
+    
+    
+            circle_marker_338fa05f1a20a806d88bd1e79d742938.bindTooltip(
+                `<div>
+                     Krakatoa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bb4fc7dd9db7b690ec9fee0132f7659b = L.circleMarker(
+                [46.2, -122.19],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_c11334df73d8f5557a0f065172229af6);
+        
+    
+        var popup_3c25ea36f35b1b483af0806df4b9cc79 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2daeec6052133a1a8f2eeda945cdfd80 = $(`<div id="html_2daeec6052133a1a8f2eeda945cdfd80" style="width: 100.0%; height: 100.0%;"><b>Mount St. Helens</b><br>Elevation: 2549 m<br>Country: United States</div>`)[0];
+                popup_3c25ea36f35b1b483af0806df4b9cc79.setContent(html_2daeec6052133a1a8f2eeda945cdfd80);
+            
+        
+
+        circle_marker_bb4fc7dd9db7b690ec9fee0132f7659b.bindPopup(popup_3c25ea36f35b1b483af0806df4b9cc79)
+        ;
+
+        
+    
+    
+            circle_marker_bb4fc7dd9db7b690ec9fee0132f7659b.bindTooltip(
+                `<div>
+                     Mount St. Helens
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5085a3d967ef55032d33566ea13df7eb = L.circleMarker(
+                [15.13, 120.35],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_c11334df73d8f5557a0f065172229af6);
+        
+    
+        var popup_713614c4b312bd3cff132123ef3a94d0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6e899dfe0c6f3ad15d1dc841793b934f = $(`<div id="html_6e899dfe0c6f3ad15d1dc841793b934f" style="width: 100.0%; height: 100.0%;"><b>Mount Pinatubo</b><br>Elevation: 1486 m<br>Country: Philippines</div>`)[0];
+                popup_713614c4b312bd3cff132123ef3a94d0.setContent(html_6e899dfe0c6f3ad15d1dc841793b934f);
+            
+        
+
+        circle_marker_5085a3d967ef55032d33566ea13df7eb.bindPopup(popup_713614c4b312bd3cff132123ef3a94d0)
+        ;
+
+        
+    
+    
+            circle_marker_5085a3d967ef55032d33566ea13df7eb.bindTooltip(
+                `<div>
+                     Mount Pinatubo
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1a356ed2c9403fecd7860dd471775f90 = L.circleMarker(
+                [-0.68, -78.44],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_c11334df73d8f5557a0f065172229af6);
+        
+    
+        var popup_b3cdd82d01ea7064c16e713eadbe60b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e972987a751ab33b752518423c7d50da = $(`<div id="html_e972987a751ab33b752518423c7d50da" style="width: 100.0%; height: 100.0%;"><b>Cotopaxi</b><br>Elevation: 5897 m<br>Country: Ecuador</div>`)[0];
+                popup_b3cdd82d01ea7064c16e713eadbe60b7.setContent(html_e972987a751ab33b752518423c7d50da);
+            
+        
+
+        circle_marker_1a356ed2c9403fecd7860dd471775f90.bindPopup(popup_b3cdd82d01ea7064c16e713eadbe60b7)
+        ;
+
+        
+    
+    
+            circle_marker_1a356ed2c9403fecd7860dd471775f90.bindTooltip(
+                `<div>
+                     Cotopaxi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4f2b38d652e4345b40137f4799b4fdcf = L.circleMarker(
+                [19.47, -155.61],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_c11334df73d8f5557a0f065172229af6);
+        
+    
+        var popup_0ce137fbb47bb719281a22de9a6c9790 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_772e68dd4f9f96aa7d6a825cab1638ad = $(`<div id="html_772e68dd4f9f96aa7d6a825cab1638ad" style="width: 100.0%; height: 100.0%;"><b>Mauna Loa</b><br>Elevation: 4169 m<br>Country: United States</div>`)[0];
+                popup_0ce137fbb47bb719281a22de9a6c9790.setContent(html_772e68dd4f9f96aa7d6a825cab1638ad);
+            
+        
+
+        circle_marker_4f2b38d652e4345b40137f4799b4fdcf.bindPopup(popup_0ce137fbb47bb719281a22de9a6c9790)
+        ;
+
+        
+    
+    
+            circle_marker_4f2b38d652e4345b40137f4799b4fdcf.bindTooltip(
+                `<div>
+                     Mauna Loa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3483092950d6cae5a0de408dacf3f8ae = L.circleMarker(
+                [37.75, 14.99],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_c11334df73d8f5557a0f065172229af6);
+        
+    
+        var popup_46de890157f9e697783faf29b58c4029 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3729e1b7e1c890ead1ee9f71dcb1f885 = $(`<div id="html_3729e1b7e1c890ead1ee9f71dcb1f885" style="width: 100.0%; height: 100.0%;"><b>Mount Etna</b><br>Elevation: 3357 m<br>Country: Italy</div>`)[0];
+                popup_46de890157f9e697783faf29b58c4029.setContent(html_3729e1b7e1c890ead1ee9f71dcb1f885);
+            
+        
+
+        circle_marker_3483092950d6cae5a0de408dacf3f8ae.bindPopup(popup_46de890157f9e697783faf29b58c4029)
+        ;
+
+        
+    
+    
+            circle_marker_3483092950d6cae5a0de408dacf3f8ae.bindTooltip(
+                `<div>
+                     Mount Etna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fcb96b52ef7a2bfece1ad3bf4d23430b = L.circleMarker(
+                [19.02, -98.62],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_c11334df73d8f5557a0f065172229af6);
+        
+    
+        var popup_a0aa6ded6bc0ca662bed884174c6d507 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8fc9f4cc1c10202b570aa6674fbf39ed = $(`<div id="html_8fc9f4cc1c10202b570aa6674fbf39ed" style="width: 100.0%; height: 100.0%;"><b>Popocatépetl</b><br>Elevation: 5426 m<br>Country: Mexico</div>`)[0];
+                popup_a0aa6ded6bc0ca662bed884174c6d507.setContent(html_8fc9f4cc1c10202b570aa6674fbf39ed);
+            
+        
+
+        circle_marker_fcb96b52ef7a2bfece1ad3bf4d23430b.bindPopup(popup_a0aa6ded6bc0ca662bed884174c6d507)
+        ;
+
+        
+    
+    
+            circle_marker_fcb96b52ef7a2bfece1ad3bf4d23430b.bindTooltip(
+                `<div>
+                     Popocatépetl
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f36b0c9d7b09d6f1cd96797063da4299 = L.circleMarker(
+                [-8.25, 118.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_c11334df73d8f5557a0f065172229af6);
+        
+    
+        var popup_d58d0345a1f1b0ae5c6aa27c6aaafe71 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f5003c5c15acdd0102785d3b9312f31 = $(`<div id="html_4f5003c5c15acdd0102785d3b9312f31" style="width: 100.0%; height: 100.0%;"><b>Tambora</b><br>Elevation: 2850 m<br>Country: Indonesia</div>`)[0];
+                popup_d58d0345a1f1b0ae5c6aa27c6aaafe71.setContent(html_4f5003c5c15acdd0102785d3b9312f31);
+            
+        
+
+        circle_marker_f36b0c9d7b09d6f1cd96797063da4299.bindPopup(popup_d58d0345a1f1b0ae5c6aa27c6aaafe71)
+        ;
+
+        
+    
+    
+            circle_marker_f36b0c9d7b09d6f1cd96797063da4299.bindTooltip(
+                `<div>
+                     Tambora
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_87d6d43738a181810e08b3dbcbd8bd51 = L.circleMarker(
+                [-7.54, 110.44],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_c11334df73d8f5557a0f065172229af6);
+        
+    
+        var popup_abde49c73ac8691973f800b2c18146e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f799df70cd1764deca2c15d9a023bf5 = $(`<div id="html_7f799df70cd1764deca2c15d9a023bf5" style="width: 100.0%; height: 100.0%;"><b>Mount Merapi</b><br>Elevation: 2930 m<br>Country: Indonesia</div>`)[0];
+                popup_abde49c73ac8691973f800b2c18146e5.setContent(html_7f799df70cd1764deca2c15d9a023bf5);
+            
+        
+
+        circle_marker_87d6d43738a181810e08b3dbcbd8bd51.bindPopup(popup_abde49c73ac8691973f800b2c18146e5)
+        ;
+
+        
+    
+    
+            circle_marker_87d6d43738a181810e08b3dbcbd8bd51.bindTooltip(
+                `<div>
+                     Mount Merapi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8fbfa3d5a015167c6f6cedc2b7cc9344 = L.circleMarker(
+                [19.42, -155.29],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_c11334df73d8f5557a0f065172229af6);
+        
+    
+        var popup_f1d6f2a8b64f61f31f1be0b5332baf4b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c6b114f615e47a378b93414670bd9eec = $(`<div id="html_c6b114f615e47a378b93414670bd9eec" style="width: 100.0%; height: 100.0%;"><b>Kilauea</b><br>Elevation: 1247 m<br>Country: United States</div>`)[0];
+                popup_f1d6f2a8b64f61f31f1be0b5332baf4b.setContent(html_c6b114f615e47a378b93414670bd9eec);
+            
+        
+
+        circle_marker_8fbfa3d5a015167c6f6cedc2b7cc9344.bindPopup(popup_f1d6f2a8b64f61f31f1be0b5332baf4b)
+        ;
+
+        
+    
+    
+            circle_marker_8fbfa3d5a015167c6f6cedc2b7cc9344.bindTooltip(
+                `<div>
+                     Kilauea
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_92d026bea52686ed2412335b0ca399b9 = L.circleMarker(
+                [31.59, 130.66],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_c11334df73d8f5557a0f065172229af6);
+        
+    
+        var popup_f0091ad0124d5d3ac0cb0efe397cd564 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_154e7171e02723c71ed213bd71b33dda = $(`<div id="html_154e7171e02723c71ed213bd71b33dda" style="width: 100.0%; height: 100.0%;"><b>Sakurajima</b><br>Elevation: 1117 m<br>Country: Japan</div>`)[0];
+                popup_f0091ad0124d5d3ac0cb0efe397cd564.setContent(html_154e7171e02723c71ed213bd71b33dda);
+            
+        
+
+        circle_marker_92d026bea52686ed2412335b0ca399b9.bindPopup(popup_f0091ad0124d5d3ac0cb0efe397cd564)
+        ;
+
+        
+    
+    
+            circle_marker_92d026bea52686ed2412335b0ca399b9.bindTooltip(
+                `<div>
+                     Sakurajima
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_509c69b6bedf1a728ec93fd921e373a9 = L.circleMarker(
+                [36.4, 25.4],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_c11334df73d8f5557a0f065172229af6);
+        
+    
+        var popup_e6ed206669cf57657ee4a0c29ddfa250 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea80c0585ad27c9c8532a9e97379dc03 = $(`<div id="html_ea80c0585ad27c9c8532a9e97379dc03" style="width: 100.0%; height: 100.0%;"><b>Santorini</b><br>Elevation: 367 m<br>Country: Greece</div>`)[0];
+                popup_e6ed206669cf57657ee4a0c29ddfa250.setContent(html_ea80c0585ad27c9c8532a9e97379dc03);
+            
+        
+
+        circle_marker_509c69b6bedf1a728ec93fd921e373a9.bindPopup(popup_e6ed206669cf57657ee4a0c29ddfa250)
+        ;
+
+        
+    
+    
+            circle_marker_509c69b6bedf1a728ec93fd921e373a9.bindTooltip(
+                `<div>
+                     Santorini
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
